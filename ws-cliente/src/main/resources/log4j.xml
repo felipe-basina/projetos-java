@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
+<log4j:configuration debug="false"
+	xmlns:log4j='http://jakarta.apache.org/log4j/'>
+
+	<appender name="console" class="org.apache.log4j.ConsoleAppender">
+		<param name="Threshold" value="DEBUG" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d{dd/MM/yyyy kk:mm:ss}%m" />
+		</layout>
+	</appender>
+
+	<appender name="ErrorFile" class="org.apache.log4j.RollingFileAppender">
+		<param name="Threshold" value="ERROR" />
+		<param name="append" value="true" />
+		<param name="maxFileSize" value="50MB" />
+		<param name="maxBackupIndex" value="10" />
+		<param name="file" value="${user.dir}/logs/ws-cliente-error.log" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d{dd/MM/yyyy kk:mm:ss}%m" />
+		</layout>
+	</appender>
+
+	<appender name="MainFile" class="org.apache.log4j.RollingFileAppender">
+		<param name="Threshold" value="DEBUG" />
+		<param name="append" value="true" />
+		<param name="maxFileSize" value="50MB" />
+		<param name="maxBackupIndex" value="10" />
+		<param name="file" value="${user.dir}/logs/ws-cliente.log" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d{dd/MM/yyyy kk:mm:ss}%m" />
+		</layout>
+	</appender>
+
+	<logger name="br.com.ws.client" additivity="false">
+		<appender-ref ref="console" />
+		<appender-ref ref="MainFile" />	
+		<appender-ref ref="ErrorFile"/>
+	</logger>
+
+</log4j:configuration>

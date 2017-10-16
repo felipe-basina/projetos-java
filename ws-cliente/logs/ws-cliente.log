@@ -1,0 +1,1086 @@
+06/01/2017 15:16:08 ----------- Inicio processamento: 06/01/2017 15:16:08
+06/01/2017 15:16:09 ; SUCC ; 200 ; 390 ; GET ; http://brux0338:9200/esb/services/ListarPacotesDisponiveisAssinantev1?wsdl
+06/01/2017 15:16:10 ; SUCC ; 200 ; 1091 ; GET ; http://brux0338:9200/esb/services/ConsultarPlanoPrecoAssinantev1?wsdl
+06/01/2017 15:16:10 ; SUCC ; 200 ; 1091 ; GET ; http://brux0338:9200/esb/services/ConsultarUltimoAssinantev1?wsdl
+06/01/2017 15:16:10 ; SUCC ; 200 ; 1092 ; GET ; http://brux0338:9200/esb/services/ConsultarDadosFaturamentoClientev1?wsdl
+06/01/2017 15:16:10 ; SUCC ; 200 ; 64 ; GET ; http://brux0338:9200/esb/services/CalcularMultaAssinantev2?wsdl
+06/01/2017 15:16:10 ; SUCC ; 200 ; 717 ; GET ; http://brux0338:9200/esb/services/ConsultarSimCardv1?wsdl
+06/01/2017 15:16:10 ; SUCC ; 200 ; 859 ; GET ; http://brux0338:9200/esb/services/ConsultarDadosCadastraisClientev1?wsdl
+06/01/2017 15:16:10 ; SUCC ; 200 ; 858 ; GET ; http://brux0338:9200/esb/services/GerarAtendimentov1?wsdl
+06/01/2017 15:16:10 ; SUCC ; 200 ; 1638 ; GET ; http://brux0338:9200/esb/services/ConsultarClienteClaroClubev1?wsdl
+06/01/2017 15:16:11 ; SUCC ; 200 ; 2730 ; GET ; http://brux0338:9200/esb/services/ConsultarDadosInspecaoDocumentacaov1?wsdl
+06/01/2017 15:16:11 ; SUCC ; 200 ; 781 ; GET ; http://brux0338:9200/esb/services/GerarSessaoUsuarioClaroClubev1?wsdl
+06/01/2017 15:16:11 ; SUCC ; 200 ; 765 ; GET ; http://brux0338:9200/esb/services/ListarAssinantesv1?wsdl
+06/01/2017 15:16:12 ; SUCC ; 200 ; 842 ; GET ; http://brux0338:9200/esb/services/ConsultarOfertasAssinantev1?wsdl
+06/01/2017 15:16:12 ; SUCC ; 200 ; 936 ; GET ; http://brux0338:9200/esb/services/ListarEnderecosv1?wsdl
+06/01/2017 15:16:14 ; SUCC ; 200 ; 2510 ; GET ; http://brux0338:9200/esb/services/AdicionarPacotesAssinantev1?wsdl
+06/01/2017 15:16:14 ; SUCC ; 200 ; 1606 ; GET ; http://brux0338:9200/esb/services/NotificarAprovisionamentoAssinantev1?wsdl
+06/01/2017 15:16:17 ; SUCC ; 200 ; 2966 ; GET ; http://brux0338:9200/esb/services/ListarExtratoConsolidadoEventosv1?wsdl
+06/01/2017 15:17:18 ; ERRO ; 500 ; 69805 ; GET ; http://brux0338:9200/esb/services/ConsultarSaldoAssinantev2?wsdl
+06/01/2017 15:17:18 ; ERRO ; 500 ; 67933 ; GET ; http://brux0338:9200/esb/services/ListarFriendsAndFamilyAssinantev1?wsdl
+06/01/2017 15:17:18 ; ERRO ; 500 ; 69805 ; GET ; http://brux0338:9200/esb/services/AdicionarPromocaoAssinantev1?wsdl
+06/01/2017 15:17:18 ; ERRO ; 500 ; 61599 ; GET ; http://brux0338:9200/esb/services/ConsultarConsumoBandaLargav2?wsdl
+06/01/2017 15:17:18 ; ERRO ; 500 ; 69837 ; GET ; http://brux0338:9200/esb/services/NotificarEventoAssinantev1?wsdl
+06/01/2017 15:17:18 ; ERRO ; 500 ; 64627 ; GET ; http://brux0338:9200/esb/services/CancelarAssinanteWppv2?wsdl
+06/01/2017 15:17:18 ; ERRO ; 500 ; 69868 ; GET ; http://brux0338:9200/esb/services/RemoverOfertasAssinantev1?wsdl
+06/01/2017 15:17:18 ; ERRO ; 500 ; 67934 ; GET ; http://brux0338:9200/esb/services/ListarPromocoesAssinantev1?wsdl
+06/01/2017 15:17:19 ; SUCC ; 200 ; 1017 ; GET ; http://brux0338:9200/esb/services/RemoverPacotesAssinantev2?wsdl
+06/01/2017 15:17:19 ; SUCC ; 200 ; 1143 ; GET ; http://brux0338:9200/esb/services/ConsultarCartaoCreditoFaturamentov1?wsdl
+06/01/2017 15:17:21 ; SUCC ; 200 ; 2578 ; GET ; http://brux0338:9200/esb/services/ListarHistoricoConsolidadoEventosAssinantev2?wsdl
+06/01/2017 15:17:21 ; SUCC ; 200 ; 2633 ; GET ; http://brux0338:9200/esb/services/ConsultarCriticidadeClientev1?wsdl
+06/01/2017 15:17:21 ; SUCC ; 200 ; 2680 ; GET ; http://brux0338:9200/esb/services/CadastrarAssinantev1?wsdl
+06/01/2017 15:18:33 ; ERRO ; 500 ; 73736 ; GET ; http://brux0338:9200/esb/services/AtualizarSenhaUsuarioExternov2?wsdl
+06/01/2017 15:19:11 ; ERRO ; 500 ; 113250 ; GET ; http://brux0338:9200/esb/services/ConsultarClienteContaOnlinev2?wsdl
+06/01/2017 15:19:12 ; ERRO ; 500 ; 179448 ; GET ; http://brux0338:9200/esb/services/VerificarCarenciaAssinantev1?wsdl
+06/01/2017 15:20:42 ; ERRO ; 500 ; 90318 ; GET ; http://brux0338:9200/esb/services/ListarHistoricoConsumoClientev1?wsdl
+06/01/2017 15:20:43 ; ERRO ; 500 ; 204356 ; GET ; http://brux0338:9200/esb/services/SincronizarUsuarioSitev1?wsdl
+06/01/2017 15:20:43 ; ERRO ; 500 ; 129540 ; GET ; http://brux0338:9200/esb/services/ListarHistoricoPromocoesAssinantev1?wsdl
+06/01/2017 15:20:43 ; ERRO ; 500 ; 204420 ; GET ; http://brux0338:9200/esb/services/ListarCampanhasDisponiveisv2?wsdl
+06/01/2017 15:20:43 ; ERRO ; 500 ; 274237 ; GET ; http://brux0338:9200/esb/services/ListarPromocoesDisponiveisAssinantev1?wsdl
+06/01/2017 15:20:43 ; ERRO ; 500 ; 203476 ; GET ; http://brux0338:9200/esb/services/AdicionarOfertasAssinantev1?wsdl
+06/01/2017 15:21:41 ; ERRO ; 500 ; 58195 ; GET ; http://brux0338:9200/esb/services/ListarHistoricoFaturasv1?wsdl
+06/01/2017 15:21:46 ; ERRO ; 500 ; 63195 ; GET ; http://brux0338:9200/esb/services/ListarPromocoesDisponiveisAssinantev2?wsdl
+06/01/2017 15:21:49 ; SUCC ; 200 ; 157489 ; GET ; http://brux0338:9200/esb/services/RemoverPromocaoAssinantev1?wsdl
+06/01/2017 15:22:01 ; SUCC ; 200 ; 79390 ; GET ; http://brux0338:9200/esb/services/ConsultarRegrasParticipacaoClienteContaOnlinev1?wsdl
+06/01/2017 15:22:05 ; ERRO ; 404 ; 3513 ; GET ; http://brux0338:9200/esb/services/CongelarNumerosTelefonev1?wsdl
+06/01/2017 15:22:37 ; ERRO ; 500 ; 315829 ; GET ; http://brux0338:9200/esb/services/ListarHistoricoAssinantesFaturadosv1?wsdl
+06/01/2017 15:22:39 ; SUCC ; 200 ; 57927 ; GET ; http://brux0338:9200/esb/services/ConsultarFaturaPDFv1?wsdl
+06/01/2017 15:23:39 ; ERRO ; 500 ; 377809 ; GET ; http://brux0338:9200/esb/services/ConsultarPromocaov1?wsdl
+06/01/2017 15:23:39 ; ERRO ; 500 ; 59966 ; GET ; http://brux0338:9200/esb/services/ResgatarPremioClaroClubev1?wsdl
+06/01/2017 15:23:39 ; ERRO ; 500 ; 94054 ; GET ; http://brux0338:9200/esb/services/NotificarValidacaoCotacaoVendaCorporativav1?wsdl
+06/01/2017 15:23:39 ; ERRO ; 500 ; 176067 ; GET ; http://brux0338:9200/esb/services/AtivarAssinanteWppv1?wsdl
+06/01/2017 15:23:40 ; ERRO ; 500 ; 63591 ; GET ; http://brux0338:9200/esb/services/CalcularPrecoProdutoEstoquev1?wsdl
+06/01/2017 15:23:42 ; ERRO ; 500 ; 381318 ; GET ; http://brux0338:9200/esb/services/GerarProtocolov1?wsdl
+06/01/2017 15:23:42 ; SUCC ; 200 ; 116567 ; GET ; http://brux0338:9200/esb/services/ListarPacotesAssinantev2?wsdl
+06/01/2017 15:25:03 ; ERRO ; 500 ; 83961 ; GET ; http://brux0338:9200/esb/services/ListarPromocoesAssinantev2?wsdl
+06/01/2017 15:25:03 ; ERRO ; 500 ; 260107 ; GET ; http://brux0338:9200/esb/services/NotificarEventoPortabilidadev1?wsdl
+06/01/2017 15:25:03 ; ERRO ; 500 ; 84009 ; GET ; http://brux0338:9200/esb/services/RestaurarAssinantev1?wsdl
+06/01/2017 15:25:04 ; ERRO ; 500 ; 81859 ; GET ; http://brux0338:9200/esb/services/ConsultarDadosAnaliseCreditov1?wsdl
+06/01/2017 15:25:05 ; ERRO ; 500 ; 195862 ; GET ; http://brux0338:9200/esb/services/LiberarNavegacaoAvulsav2?wsdl
+06/01/2017 15:25:06 ; ERRO ; 404 ; 1515 ; GET ; http://brux0338:9200/esb/services/ListarEnderecosClienteGAMBRv1?wsdl
+06/01/2017 15:26:50 ; ERRO ; 500 ; 191453 ; GET ; http://brux0338:9200/esb/services/ListarAccountsClientev1?wsdl
+06/01/2017 15:26:50 ; ERRO ; 500 ; 107478 ; GET ; http://brux0338:9200/esb/services/ListarExtratoDetalhadoConsumov1?wsdl
+06/01/2017 15:26:50 ; ERRO ; 500 ; 107592 ; GET ; http://brux0338:9200/esb/services/EnviarSmsv1?wsdl
+06/01/2017 15:26:50 ; ERRO ; 500 ; 367712 ; GET ; http://brux0338:9200/esb/services/ListarPremiosClaroClubev1?wsdl
+06/01/2017 15:27:00 ; ERRO ; 500 ; 201453 ; GET ; http://brux0338:9200/esb/services/VerificarAdimplenciaClientev1?wsdl
+06/01/2017 15:27:03 ; SUCC ; 200 ; 200793 ; GET ; http://brux0338:9200/esb/services/ListarHistoricoAtendimentov1?wsdl
+06/01/2017 15:27:04 ; SUCC ; 200 ; 203724 ; GET ; http://brux0338:9200/esb/services/MigrarAssinantev1?wsdl
+06/01/2017 15:27:04 ; SUCC ; 200 ; 118427 ; GET ; http://brux0338:9200/esb/services/NotificarAnaliseCreditov2?wsdl
+06/01/2017 15:27:05 ; ERRO ; 404 ; 710 ; GET ; http://brux0338:9200/esb/services/ListarValoresDisponiveisTransferenciaCreditoAssinantev1?wsdl
+06/01/2017 15:27:07 ; SUCC ; 200 ; 16820 ; GET ; http://brux0338:9200/esb/services/ListarEmpresasParceirasClaroClubev1?wsdl
+06/01/2017 15:27:08 ; SUCC ; 200 ; 4473 ; GET ; http://brux0338:9200/esb/services/ValidarDadosBancariosv1?wsdl
+06/01/2017 15:28:13 ; ERRO ; 500 ; 82640 ; GET ; http://brux0338:9200/esb/services/NotificarEventoSolicitacaoAtendimentov1?wsdl
+06/01/2017 15:28:13 ; ERRO ; 500 ; 64444 ; GET ; http://brux0338:9200/esb/services/AtualizarClienteContaOnlinev2?wsdl
+06/01/2017 15:28:13 ; ERRO ; 500 ; 82542 ; GET ; http://brux0338:9200/esb/services/CadastrarClienteClaroClubev1?wsdl
+06/01/2017 15:28:13 ; ERRO ; 404 ; 117 ; GET ; http://brux0338:9200/esb/services/SolicitarTransferenciaCreditoAssinantev1?wsdl
+06/01/2017 15:28:13 ; SUCC ; 200 ; 69819 ; GET ; http://brux0338:9200/esb/services/ConsultarAtendimentov1?wsdl
+06/01/2017 15:28:13 ; ERRO ; 404 ; 98 ; GET ; http://brux0338:9200/esb/services/DesalocarNumerosTelefonev1?wsdl
+06/01/2017 15:28:14 ; SUCC ; 200 ; 66849 ; GET ; http://brux0338:9200/esb/services/GerarTokenSSOv2?wsdl
+06/01/2017 15:28:14 ; SUCC ; 200 ; 69116 ; GET ; http://brux0338:9200/esb/services/SuspenderAssinantev1?wsdl
+06/01/2017 15:28:23 ; SUCC ; 200 ; 199789 ; GET ; http://brux0338:9200/esb/services/ReenviarDadosRedeTelefoniav1?wsdl
+06/01/2017 15:28:23 ; SUCC ; 200 ; 92985 ; GET ; http://brux0338:9200/esb/services/AtualizarDadosCadastraisClientev1?wsdl
+06/01/2017 15:28:23 ; SUCC ; 200 ; 83109 ; GET ; http://brux0338:9200/esb/services/GerarOrdemSapv1?wsdl
+06/01/2017 15:28:25 ; SUCC ; 200 ; 11038 ; GET ; http://brux0338:9200/esb/services/VerificarElegibilidadeAssinantev1?wsdl
+06/01/2017 15:28:26 ; SUCC ; 200 ; 200643 ; GET ; http://brux0338:9200/esb/services/ConsultarContratoClienteGAMBRv1?wsdl
+06/01/2017 15:28:26 ; SUCC ; 200 ; 12802 ; GET ; http://brux0338:9200/esb/services/ConsultarDetalhesOrdemv1?wsdl
+06/01/2017 15:28:26 ; SUCC ; 200 ; 12890 ; GET ; http://brux0338:9200/esb/services/EnviarEmailv1?wsdl
+06/01/2017 15:28:26 ; SUCC ; 200 ; 862 ; GET ; http://brux0338:9200/esb/services/ConsultarUltimaFaturav1?wsdl
+06/01/2017 15:28:27 ; SUCC ; 200 ; 1687 ; GET ; http://brux0338:9200/esb/services/GerarParcelamentoCobrancav1?wsdl
+06/01/2017 15:28:28 ; ERRO ; 404 ; 743 ; GET ; http://brux0338:9200/esb/services/AdicionarFriendsAndFamilyAssinantev1?wsdl
+06/01/2017 15:28:34 ; SUCC ; 200 ; 5458 ; GET ; http://brux0338:9200/esb/services/ConsultarDadosPessoav1?wsdl
+06/01/2017 15:30:05 ; ERRO ; 500 ; 99468 ; GET ; http://brux0338:9200/esb/services/ConsultarUltimoAparelhov1?wsdl
+06/01/2017 15:30:05 ; ERRO ; 500 ; 91549 ; GET ; http://brux0338:9200/esb/services/AjustarCreditoAssinantev1?wsdl
+06/01/2017 15:30:05 ; ERRO ; 500 ; 102712 ; GET ; http://brux0338:9200/esb/services/ConsultarSegmentacaoAssinantev2?wsdl
+06/01/2017 15:30:05 ; ERRO ; 500 ; 112470 ; GET ; http://brux0338:9200/esb/services/ListarMemorandosv1?wsdl
+06/01/2017 15:30:05 ; ERRO ; 500 ; 99561 ; GET ; http://brux0338:9200/esb/services/PreAtivarAssinantev2?wsdl
+06/01/2017 15:30:10 ; SUCC ; 200 ; 4644 ; GET ; http://brux0338:9200/esb/services/ListarHistoricoPacotesAssinantev1?wsdl
+06/01/2017 15:30:16 ; SUCC ; 200 ; 6570 ; GET ; http://brux0338:9200/esb/services/EfetivarPortabilidadev1?wsdl
+06/01/2017 15:30:24 ; SUCC ; 200 ; 7172 ; GET ; http://brux0338:9200/esb/services/ConsultarVendedorv1?wsdl
+06/01/2017 15:31:46 ; ERRO ; 500 ; 101070 ; GET ; http://brux0338:9200/esb/services/ConsultarClientev2?wsdl
+06/01/2017 15:32:27 ; ERRO ; 500 ; 142016 ; GET ; http://brux0338:9200/esb/services/ListarHistoricoPagamentov1?wsdl
+06/01/2017 15:32:27 ; ERRO ; 500 ; 142066 ; GET ; http://brux0338:9200/esb/services/ConsultarDocumentoDigitalv1?wsdl
+06/01/2017 15:32:27 ; ERRO ; 500 ; 244008 ; GET ; http://brux0338:9200/esb/services/AtualizarPortabilidadev1?wsdl
+06/01/2017 15:32:31 ; SUCC ; 200 ; 4144 ; GET ; http://brux0338:9200/esb/services/ReservarNumerosTelefonev1?wsdl
+06/01/2017 15:33:36 ; ERRO ; 500 ; 68468 ; GET ; http://brux0338:9200/esb/services/ListarAlertasVendasv1?wsdl
+06/01/2017 15:34:16 ; ERRO ; 500 ; 363101 ; GET ; http://brux0338:9200/esb/services/VerificarBloqueioAssinanteRecargav1?wsdl
+06/01/2017 15:34:16 ; ERRO ; 500 ; 232612 ; GET ; http://brux0338:9200/esb/services/VerificarElegibilidadePromocaoAssinantev1?wsdl
+06/01/2017 15:34:23 ; SUCC ; 200 ; 111211 ; GET ; http://brux0338:9200/esb/services/ConsultarDadosMarketingClientev1?wsdl
+06/01/2017 15:35:37 ; ERRO ; 500 ; 332100 ; GET ; http://brux0338:9200/esb/services/SolicitarInspecaoDigitalizacaov1?wsdl
+06/01/2017 15:35:37 ; ERRO ; 500 ; 74778 ; GET ; http://brux0338:9200/esb/services/SolicitarSegundaViaFaturav1?wsdl
+06/01/2017 15:35:37 ; ERRO ; 500 ; 81253 ; GET ; http://brux0338:9200/esb/services/NotificarEventoLogisticav2?wsdl
+06/01/2017 15:35:44 ; SUCC ; 200 ; 450344 ; GET ; http://brux0338:9200/esb/services/AtualizarDadosInspecaoDocumentacaov1?wsdl
+06/01/2017 15:35:45 ; SUCC ; 200 ; 439555 ; GET ; http://brux0338:9200/esb/services/ListarExtratoClaroClubev1?wsdl
+06/01/2017 15:35:46 ; SUCC ; 200 ; 442566 ; GET ; http://brux0338:9200/esb/services/VerificarEnderecoClientev1?wsdl
+06/01/2017 15:35:48 ; SUCC ; 200 ; 4227 ; GET ; http://brux0338:9200/esb/services/TrocarFormaPagamentoAccountv1?wsdl
+06/01/2017 15:35:49 ; SUCC ; 200 ; 801 ; GET ; http://brux0338:9200/esb/services/SolicitarCompraEquipamentoSeguradorav1?wsdl
+06/01/2017 15:35:52 ; SUCC ; 200 ; 2439 ; GET ; http://brux0338:9200/esb/services/GerarCodigoAutorizacaoUsuarioExternov1?wsdl
+06/01/2017 15:37:03 ; ERRO ; 500 ; 78081 ; GET ; http://brux0338:9200/esb/services/ValidarCotacaoVendaCorporativav1?wsdl
+06/01/2017 15:37:03 ; ERRO ; 500 ; 85713 ; GET ; http://brux0338:9200/esb/services/GerarAtendimentoNetv1?wsdl
+06/01/2017 15:37:03 ; ERRO ; 500 ; 166965 ; GET ; http://brux0338:9200/esb/services/ConsultarPlanoPrecov2?wsdl
+06/01/2017 15:37:04 ; ERRO ; 404 ; 1020 ; GET ; http://brux0338:9200/esb/services/DescongelarNumerosTelefonev1?wsdl
+06/01/2017 15:37:11 ; SUCC ; 200 ; 7311 ; GET ; http://brux0338:9200/esb/services/AutenticarTokenSSOv2?wsdl
+06/01/2017 15:37:19 ; SUCC ; 200 ; 8639 ; GET ; http://brux0338:9200/esb/services/AdicionarClienteContaOnlinev2?wsdl
+06/01/2017 15:38:48 ; ERRO ; 500 ; 312390 ; GET ; http://brux0338:9200/esb/services/ListarLocalidadesVendav1?wsdl
+06/01/2017 15:38:48 ; ERRO ; 500 ; 105054 ; GET ; http://brux0338:9200/esb/services/ListarProdutosEstoquev1?wsdl
+06/01/2017 15:40:16 ; ERRO ; 500 ; 191464 ; GET ; http://brux0338:9200/esb/services/ConsultarPesquisaSatisfacaoDisponivelAssinantev1?wsdl
+06/01/2017 15:40:16 ; ERRO ; 500 ; 87452 ; GET ; http://brux0338:9200/esb/services/ConsultarPontuacaoSolicitacaoCartaoClaroClubev1?wsdl
+06/01/2017 15:40:16 ; ERRO ; 500 ; 509276 ; GET ; http://brux0338:9200/esb/services/ResgatarPontuacaoClaroClubev1?wsdl
+06/01/2017 15:41:08 ; SUCC ; 200 ; 52718 ; GET ; http://brux0338:9200/esb/services/ValidarCodigoAutorizacaoUsuarioExternov1?wsdl
+06/01/2017 15:42:10 ; ERRO ; 500 ; 61402 ; GET ; http://brux0338:9200/esb/services/CalcularAnaliseCreditoFormasPagamentov1?wsdl
+06/01/2017 15:42:12 ; ERRO ; 500 ; 585089 ; GET ; http://brux0338:9200/esb/services/CadastrarPagadorv1?wsdl
+06/01/2017 15:43:58 ; ERRO ; 500 ; 492349 ; GET ; http://brux0338:9200/esb/services/VerificarElegibilidadeGrupoAssinantev1?wsdl
+06/01/2017 15:44:00 ; SUCC ; 200 ; 107507 ; GET ; http://brux0338:9200/esb/services/TrocarSimCardv1?wsdl
+06/01/2017 15:44:12 ; SUCC ; 200 ; 11905 ; GET ; http://brux0338:9200/esb/services/SolicitarRestituicaoEmConfiancav1?wsdl
+06/01/2017 15:45:31 ; ERRO ; 500 ; 92948 ; GET ; http://brux0338:9200/esb/services/ListarHistoricoAjustesCreditoAssinantev1?wsdl
+06/01/2017 15:45:31 ; ERRO ; 500 ; 579530 ; GET ; http://brux0338:9200/esb/services/NotificarEventoDigitalizacaoDocumentacaov1?wsdl
+06/01/2017 15:45:31 ; ERRO ; 500 ; 315540 ; GET ; http://brux0338:9200/esb/services/CadastrarUsuarioExternov2?wsdl
+06/01/2017 15:45:31 ; ERRO ; 500 ; 201409 ; GET ; http://brux0338:9200/esb/services/ConsultarOrdemVendav1?wsdl
+06/01/2017 15:45:32 ; SUCC ; 200 ; 80413 ; GET ; http://brux0338:9200/esb/services/ListarServicosAgregadoresAssinantev1?wsdl
+06/01/2017 15:45:32 ; SUCC ; 200 ; 1043 ; GET ; http://brux0338:9200/esb/services/ListarMotivosSituacaoPromocaov1?wsdl
+06/01/2017 15:45:32 ; SUCC ; 200 ; 1084 ; GET ; http://brux0338:9200/esb/services/GerarMemorandov1?wsdl
+06/01/2017 15:45:34 ; ERRO ; 500 ; 406013 ; GET ; http://brux0338:9200/esb/services/DesbloquearAparelhoRedev1?wsdl
+06/01/2017 15:45:39 ; SUCC ; 200 ; 4837 ; GET ; http://brux0338:9200/esb/services/ConsultarCartaoRecargav1?wsdl
+06/01/2017 15:47:03 ; ERRO ; 500 ; 407236 ; GET ; http://brux0338:9200/esb/services/SolicitarNovaSenhaUsuarioExternov2?wsdl
+06/01/2017 15:47:03 ; ERRO ; 500 ; 685433 ; GET ; http://brux0338:9200/esb/services/ListarDividasClienteGAMBRv1?wsdl
+06/01/2017 15:47:03 ; ERRO ; 500 ; 91696 ; GET ; http://brux0338:9200/esb/services/RegistrarRespostasPesquisaSatisfacaoAssinantev1?wsdl
+06/01/2017 15:47:03 ; ERRO ; 500 ; 583802 ; GET ; http://brux0338:9200/esb/services/ListarHistoricoChamadasAssinanteContaOnlinev1?wsdl
+06/01/2017 15:47:04 ; ERRO ; 404 ; 841 ; GET ; http://brux0338:9200/esb/services/AtualizarSimcardv2?wsdl
+06/01/2017 15:47:04 ; ERRO ; 404 ; 861 ; GET ; http://brux0338:9200/esb/services/ListarAvisosAtendimentov1?wsdl
+06/01/2017 15:47:04 ; SUCC ; 200 ; 686383 ; GET ; http://brux0338:9200/esb/services/ListarOfertasDisponiveisv1?wsdl
+06/01/2017 15:47:05 ; SUCC ; 200 ; 859 ; GET ; http://brux0338:9200/esb/services/ConsultarAcordoPagamentov1?wsdl
+06/01/2017 15:48:06 ; ERRO ; 500 ; 154113 ; GET ; http://brux0338:9200/esb/services/NotificarAtualizacaoPortabilidadev1?wsdl
+06/01/2017 15:48:06 ; ERRO ; 500 ; 154076 ; GET ; http://brux0338:9200/esb/services/TrocarDataVencimentoFaturamentoAccountv1?wsdl
+06/01/2017 15:48:06 ; ERRO ; 500 ; 62496 ; GET ; http://brux0338:9200/esb/services/AtualizarProtocoloFaturamentov1?wsdl
+06/01/2017 15:48:06 ; ERRO ; 500 ; 155184 ; GET ; http://brux0338:9200/esb/services/ListarHistoricoSolicitacaoCartaoClaroClubev1?wsdl
+06/01/2017 15:48:06 ; ERRO ; 500 ; 147439 ; GET ; http://brux0338:9200/esb/services/CancelarPortabilidadev1?wsdl
+06/01/2017 15:48:14 ; SUCC ; 200 ; 7826 ; GET ; http://brux0338:9200/esb/services/GerarOrdemVendav1?wsdl
+06/01/2017 15:49:37 ; ERRO ; 500 ; 152439 ; GET ; http://brux0338:9200/esb/services/SolicitarGeracaoDocumentosDigitaisv1?wsdl
+06/01/2017 15:49:37 ; ERRO ; 500 ; 90652 ; GET ; http://brux0338:9200/esb/services/ListarProdutosNegociadosv1?wsdl
+06/01/2017 15:49:37 ; ERRO ; 500 ; 154174 ; GET ; http://brux0338:9200/esb/services/AjustarRecargaAssinantev1?wsdl
+06/01/2017 15:49:37 ; ERRO ; 500 ; 244807 ; GET ; http://brux0338:9200/esb/services/ListarExtratoDetalhadoClaroClubev1?wsdl
+06/01/2017 15:49:58 ; SUCC ; 200 ; 174880 ; GET ; http://brux0338:9200/esb/services/CalcularPlanoPrecov1?wsdl
+06/01/2017 15:49:58 ; SUCC ; 200 ; 174128 ; GET ; http://brux0338:9200/esb/services/AtualizarDocumentoDigitalv1?wsdl
+06/01/2017 15:50:02 ; SUCC ; 200 ; 115623 ; GET ; http://brux0338:9200/esb/services/ListarSimCardsv1?wsdl
+06/01/2017 15:50:02 ; SUCC ; 200 ; 107843 ; GET ; http://brux0338:9200/esb/services/ConsultarLimitesAjusteCreditoAssinantev1?wsdl
+06/01/2017 15:50:02 ; SUCC ; 200 ; 115685 ; GET ; http://brux0338:9200/esb/services/TrocarAssinantePromocaov1?wsdl
+06/01/2017 15:50:02 ; SUCC ; 200 ; 115701 ; GET ; http://brux0338:9200/esb/services/ConsultarSurveyv1?wsdl
+06/01/2017 15:50:04 ; SUCC ; 200 ; 27074 ; GET ; http://brux0338:9200/esb/services/VerificarElegibilidadeAvaliacaoComprav1?wsdl
+06/01/2017 15:50:04 ; SUCC ; 200 ; 27176 ; GET ; http://brux0338:9200/esb/services/SolicitarPortabilidadev2?wsdl
+06/01/2017 15:50:05 ; SUCC ; 200 ; 2967 ; GET ; http://brux0338:9200/esb/services/ListarTiposLogradourov1?wsdl
+06/01/2017 15:50:05 ; SUCC ; 200 ; 893 ; GET ; http://brux0338:9200/esb/services/ListarBancosConveniadosDebitoAutomaticov1?wsdl
+06/01/2017 15:50:07 ; SUCC ; 200 ; 1941 ; GET ; http://brux0338:9200/esb/services/ListarAssinantesGAMBRv1?wsdl
+06/01/2017 15:50:08 ; SUCC ; 200 ; 834 ; GET ; http://brux0338:9200/esb/services/ListarDatasVencimentoFaturamentov1?wsdl
+06/01/2017 15:51:48 ; ERRO ; 500 ; 106361 ; GET ; http://brux0338:9200/esb/services/GerarAvisoFaturamentoTransportadorav2?wsdl
+06/01/2017 15:51:48 ; ERRO ; 500 ; 131312 ; GET ; http://brux0338:9200/esb/services/SolicitarRecargaAssinantev1?wsdl
+06/01/2017 15:51:48 ; ERRO ; 500 ; 106312 ; GET ; http://brux0338:9200/esb/services/ListarMotivosAtendimentov1?wsdl
+06/01/2017 15:51:48 ; ERRO ; 404 ; 62 ; GET ; http://brux0338:9200/esb/services/ListarOpcoesParcelamentoAcordoPagamentov1?wsdl
+06/01/2017 15:53:26 ; ERRO ; 500 ; 198077 ; GET ; http://brux0338:9200/esb/services/ConsultarSolicitacaoGeracaoDocumentosDigitaisv1?wsdl
+06/01/2017 15:53:26 ; ERRO ; 500 ; 200795 ; GET ; http://brux0338:9200/esb/services/AutenticarUsuarioExternov2?wsdl
+06/01/2017 15:54:44 ; ERRO ; 500 ; 286103 ; GET ; http://brux0338:9200/esb/services/CancelarParcelamentoCobrancav1?wsdl
+06/01/2017 15:54:44 ; ERRO ; 500 ; 78074 ; GET ; http://brux0338:9200/esb/services/AutenticarUsuariov1?wsdl
+06/01/2017 15:54:51 ; SUCC ; 200 ; 6754 ; GET ; http://brux0338:9200/esb/services/ListarTemplatesDocumentoDigitalv1?wsdl
+06/01/2017 15:54:53 ; SUCC ; 200 ; 291164 ; GET ; http://brux0338:9200/esb/services/ListarPosicaoGeograficav1?wsdl
+06/01/2017 15:55:02 ; SUCC ; 200 ; 11258 ; GET ; http://brux0338:9200/esb/services/ConsultarAgenteVendav1?wsdl
+06/01/2017 15:55:07 ; SUCC ; 200 ; 330260 ; GET ; http://brux0338:9200/esb/services/ListarDigitalizacoesDocumentosVendav1?wsdl
+06/01/2017 15:55:07 ; SUCC ; 200 ; 309430 ; GET ; http://brux0338:9200/esb/services/ReenviarCorreioVozv1?wsdl
+06/01/2017 15:57:08 ; ERRO ; 500 ; 319233 ; GET ; http://brux0338:9200/esb/services/ConsultarCadastroUsuarioExternov2?wsdl
+06/01/2017 15:57:08 ; ERRO ; 500 ; 221697 ; GET ; http://brux0338:9200/esb/services/VerificarOfertasCompativeisv1?wsdl
+06/01/2017 15:57:08 ; ERRO ; 500 ; 126395 ; GET ; http://brux0338:9200/esb/services/ListarContratosDigitalizadosClientev1?wsdl
+06/01/2017 15:57:08 ; ERRO ; 404 ; 50 ; GET ; http://brux0338:9200/esb/services/SolicitarAutoCadastrov1?wsdl
+06/01/2017 15:57:11 ; ERRO ; 404 ; 2566 ; GET ; http://brux0338:9200/esb/services/SegurancaOTPv1?wsdl
+06/01/2017 15:57:11 ; SUCC ; 200 ; 3491 ; GET ; http://brux0338:9200/esb/services/ListarParcelamentosCobrancav1?wsdl
+06/01/2017 15:57:12 ; SUCC ; 200 ; 427760 ; GET ; http://brux0338:9200/esb/services/VerificarSituacaoMigracaoCPCv1?wsdl
+06/01/2017 15:57:13 ; ERRO ; 404 ; 902 ; GET ; http://brux0338:9200/esb/services/AlocarNumerosTelefonev1?wsdl
+06/01/2017 15:57:15 ; SUCC ; 200 ; 3645 ; GET ; http://brux0338:9200/esb/services/AtualizarEnderecoFaturamentov1?wsdl
+06/01/2017 15:57:18 ; SUCC ; 200 ; 5701 ; GET ; http://brux0338:9200/esb/services/ListarMotivosSuspensaoAssinantev1?wsdl
+06/01/2017 15:57:20 ; ERRO ; 404 ; 1792 ; GET ; http://brux0338:9200/esb/services/SolicitarEnvioNotaFiscalv1?wsdl
+06/01/2017 15:59:07 ; ERRO ; 500 ; 438179 ; GET ; http://brux0338:9200/esb/services/ConsultarMemorandoEspecialClientev1?wsdl
+06/01/2017 15:59:07 ; ERRO ; 500 ; 118930 ; GET ; http://brux0338:9200/esb/services/AtualizarDadosCadastraisClientePS8v1?wsdl
+06/01/2017 15:59:07 ; ERRO ; 500 ; 115480 ; GET ; http://brux0338:9200/esb/services/ConsultarUsuariov1?wsdl
+06/01/2017 15:59:07 ; ERRO ; 500 ; 438987 ; GET ; http://brux0338:9200/esb/services/ValidarVendedorv1?wsdl
+06/01/2017 15:59:08 ; SUCC ; 200 ; 1907 ; GET ; http://brux0338:9200/esb/services/ConsultarProdutoEstoquev5?wsdl
+06/01/2017 15:59:11 ; SUCC ; 200 ; 3663 ; GET ; http://brux0338:9200/esb/services/ConsultarClienteSapv1?wsdl
+06/01/2017 15:59:12 ; SUCC ; 200 ; 5782 ; GET ; http://brux0338:9200/esb/services/ListarMotivosRestauracaoAssinantev1?wsdl
+06/01/2017 15:59:14 ; SUCC ; 200 ; 2983 ; GET ; http://brux0338:9200/esb/services/CancelarServicosAgregadoresAssinantev1?wsdl
+06/01/2017 15:59:15 ; SUCC ; 200 ; 2877 ; GET ; http://brux0338:9200/esb/services/GerarBoletoPagamentov1?wsdl
+06/01/2017 15:59:16 ; SUCC ; 200 ; 7458 ; GET ; http://brux0338:9200/esb/services/CalcularAnaliseCreditov1?wsdl
+06/01/2017 15:59:17 ; SUCC ; 200 ; 2647 ; GET ; http://brux0338:9200/esb/services/ConsultarOperadoraTelefonev1?wsdl
+06/01/2017 15:59:19 ; SUCC ; 200 ; 274698 ; GET ; http://brux0338:9200/esb/services/ConsultarNotaFiscalv1?wsdl
+06/01/2017 15:59:20 ; SUCC ; 200 ; 1724 ; GET ; http://brux0338:9200/esb/services/ListarMotivosCancelamentoServicosAgregadoresv1?wsdl
+06/01/2017 15:59:21 ; ERRO ; 404 ; 840 ; GET ; http://brux0338:9200/esb/services/AdicionarDocumentoDigitalv1?wsdl
+06/01/2017 15:59:22 ; SUCC ; 200 ; 1058 ; GET ; http://brux0338:9200/esb/services/LiberarProdutoEstoquev2?wsdl
+06/01/2017 15:59:36 ; SUCC ; 200 ; 282309 ; GET ; http://brux0338:9200/esb/services/ListarOrdensv1?wsdl
+06/01/2017 15:59:56 ; SUCC ; 200 ; 288358 ; GET ; http://brux0338:9200/esb/services/InvalidarSessaoSSOv1?wsdl
+06/01/2017 16:00:06 ; SUCC ; 200 ; 10743 ; GET ; http://brux0338:9200/esb/services/ListarClassesProdutov1?wsdl
+06/01/2017 16:00:10 ; SUCC ; 200 ; 3646 ; GET ; http://brux0338:9200/esb/services/ListarFaixasSalariaisv1?wsdl
+06/01/2017 16:00:17 ; SUCC ; 200 ; 6511 ; GET ; http://brux0338:9200/esb/services/ListarOcupacoesv1?wsdl
+06/01/2017 16:00:17 ; SUCC ; 200 ; 309971 ; GET ; http://brux0338:9200/esb/services/PrepararSolicitacoesPortabilidadev1?wsdl
+06/01/2017 16:01:30 ; ERRO ; 500 ; 127942 ; GET ; http://brux0338:9200/esb/services/AutorizarUsuariov1?wsdl
+06/01/2017 16:01:30 ; ERRO ; 500 ; 135021 ; GET ; http://brux0338:9200/esb/services/AtualizarDadosMarketingClientev1?wsdl
+06/01/2017 16:01:30 ; ERRO ; 500 ; 134452 ; GET ; http://brux0338:9200/esb/services/AtualizarSegmentacaoAssinantev1?wsdl
+06/01/2017 16:01:30 ; ERRO ; 500 ; 73079 ; GET ; http://brux0338:9200/esb/services/RemoverClienteContaOnlinev2?wsdl
+06/01/2017 16:01:37 ; SUCC ; 200 ; 6958 ; GET ; http://brux0338:9200/esb/services/AtualizarFornecedorSapv2?wsdl
+06/01/2017 16:01:37 ; SUCC ; 200 ; 262695 ; GET ; http://brux0338:9200/esb/services/VerificarConjuntoMinimoDigitalizacaov1?wsdl
+06/01/2017 16:01:40 ; SUCC ; 200 ; 9722 ; GET ; http://brux0338:9200/esb/services/AtualizarClienteSapv1?wsdl
+06/01/2017 16:01:42 ; SUCC ; 200 ; 261582 ; GET ; http://brux0338:9200/esb/services/ConsultarDetalhesFaturaExtratov1?wsdl
+06/01/2017 16:01:43 ; SUCC ; 200 ; 5455 ; GET ; http://brux0338:9200/esb/services/ConsultarFornecedorSapv1?wsdl
+06/01/2017 16:01:43 ; SUCC ; 200 ; 156193 ; GET ; http://brux0338:9200/esb/services/ConsultarSerialEstoquev1?wsdl
+06/01/2017 16:03:55 ; ERRO ; 500 ; 144958 ; GET ; http://brux0338:9200/esb/services/ListarMotivosAjusteCreditoAssinantev1?wsdl
+06/01/2017 16:03:55 ; ERRO ; 500 ; 218610 ; GET ; http://brux0338:9200/esb/services/VerificarImpedimentoClientev1?wsdl
+06/01/2017 16:04:09 ; SUCC ; 200 ; 292593 ; GET ; http://brux0338:9200/esb/services/ListarBeneficiosPromocaoAssinantev1?wsdl
+06/01/2017 16:05:39 ; ERRO ; 500 ; 104024 ; GET ; http://brux0338:9200/esb/services/ListarFormasPagamentoDigitalAssinantesv1?wsdl
+06/01/2017 16:06:21 ; ERRO ; 500 ; 290872 ; GET ; http://brux0338:9200/esb/services/AtualizarMultaAssinantev1?wsdl
+06/01/2017 16:06:21 ; ERRO ; 500 ; 279214 ; GET ; http://brux0338:9200/esb/services/NotificarSolicitacaoPortabilidadev1?wsdl
+06/01/2017 16:06:21 ; ERRO ; 500 ; 278317 ; GET ; http://brux0338:9200/esb/services/CalcularTrocaPlanoPrecoFlexv3?wsdl
+06/01/2017 16:06:21 ; ERRO ; 500 ; 145913 ; GET ; http://brux0338:9200/esb/services/ExcluirUsuarioExternov2?wsdl
+06/01/2017 16:06:21 ; ERRO ; 500 ; 278317 ; GET ; http://brux0338:9200/esb/services/ConsultarDadosVendav1?wsdl
+06/01/2017 16:06:22 ; SUCC ; 200 ; 132616 ; GET ; http://brux0338:9200/esb/services/ConsultarAssinantev1?wsdl
+06/01/2017 16:06:22 ; SUCC ; 200 ; 42885 ; GET ; http://brux0338:9200/esb/services/SolicitarAcordoPagamentov1?wsdl
+06/01/2017 16:06:23 ; SUCC ; 200 ; 1879 ; GET ; http://brux0338:9200/esb/services/ConsultarSeguroEquipamentov1?wsdl
+06/01/2017 16:06:25 ; SUCC ; 200 ; 2665 ; GET ; http://brux0338:9200/esb/services/ConsultarQuestionarioAvaliacaoComprav1?wsdl
+06/01/2017 16:08:17 ; ERRO ; 500 ; 112087 ; GET ; http://brux0338:9200/esb/services/AtualizarInformativoClaroClubev1?wsdl
+06/01/2017 16:08:22 ; ERRO ; 500 ; 121407 ; GET ; http://brux0338:9200/esb/services/ConsultarUsuarioGestorServicov1?wsdl
+06/01/2017 16:08:23 ; ERRO ; 500 ; 121428 ; GET ; http://brux0338:9200/esb/services/AtualizarCadastroUsuarioExternov2?wsdl
+06/01/2017 16:08:24Erro ao invocar operacao [http://brux0338:9200/esb/services/ConsultarAutoCadastrov1?wsdl] = java.net.ConnectException: Connection refused: connectjava.net.ConnectException: Connection refused: connect
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:351)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:213)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:200)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:366)
+	at java.net.Socket.connect(Socket.java:529)
+	at java.net.Socket.connect(Socket.java:478)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:163)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:411)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:525)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:208)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:291)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:310)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:987)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:923)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:841)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1195)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:379)
+	at br.com.ws.client.connection.HTTPConnection.run(HTTPConnection.java:67)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:662)
+06/01/2017 16:08:24
+06/01/2017 16:08:24Erro ao invocar operacao [http://brux0338:9200/esb/services/NotificarValidacaoDadosRelacionamentoClientev1?wsdl] = java.net.ConnectException: Connection refused: connectjava.net.ConnectException: Connection refused: connect
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:351)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:213)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:200)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:366)
+	at java.net.Socket.connect(Socket.java:529)
+	at java.net.Socket.connect(Socket.java:478)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:163)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:411)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:525)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:208)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:291)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:310)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:987)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:923)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:841)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1195)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:379)
+	at br.com.ws.client.connection.HTTPConnection.run(HTTPConnection.java:67)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:662)
+06/01/2017 16:08:24
+06/01/2017 16:08:24Erro ao invocar operacao [http://brux0338:9200/esb/services/CalcularAvaliacaoComprav1?wsdl] = java.net.ConnectException: Connection refused: connectjava.net.ConnectException: Connection refused: connect
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:351)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:213)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:200)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:366)
+	at java.net.Socket.connect(Socket.java:529)
+	at java.net.Socket.connect(Socket.java:478)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:163)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:411)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:525)
+	at sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:657)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1218)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:379)
+	at br.com.ws.client.connection.HTTPConnection.run(HTTPConnection.java:67)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:662)
+06/01/2017 16:08:24
+06/01/2017 16:08:25Erro ao invocar operacao [http://brux0338:9200/esb/services/ListarDadosDigitalizacaoDocumentacaov1?wsdl] = java.net.ConnectException: Connection refused: connectjava.net.ConnectException: Connection refused: connect
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:351)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:213)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:200)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:366)
+	at java.net.Socket.connect(Socket.java:529)
+	at java.net.Socket.connect(Socket.java:478)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:163)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:411)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:525)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:208)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:291)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:310)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:987)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:923)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:841)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1195)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:379)
+	at br.com.ws.client.connection.HTTPConnection.run(HTTPConnection.java:67)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:662)
+06/01/2017 16:08:25Erro ao invocar operacao [http://brux0338:9200/esb/services/ListarTransacoesAtivacaov1?wsdl] = java.net.ConnectException: Connection refused: connectjava.net.ConnectException: Connection refused: connect
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:351)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:213)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:200)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:366)
+	at java.net.Socket.connect(Socket.java:529)
+	at java.net.Socket.connect(Socket.java:478)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:163)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:411)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:525)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:208)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:291)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:310)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:987)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:923)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:841)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1195)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:379)
+	at br.com.ws.client.connection.HTTPConnection.run(HTTPConnection.java:67)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:662)
+06/01/2017 16:08:25
+06/01/2017 16:08:25
+06/01/2017 16:08:25Erro ao invocar operacao [http://brux0338:9200/esb/services/ConsultarClientev1?wsdl] = java.net.ConnectException: Connection refused: connectjava.net.ConnectException: Connection refused: connect
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:351)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:213)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:200)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:366)
+	at java.net.Socket.connect(Socket.java:529)
+	at java.net.Socket.connect(Socket.java:478)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:163)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:411)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:525)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:208)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:291)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:310)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:987)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:923)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:841)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1195)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:379)
+	at br.com.ws.client.connection.HTTPConnection.run(HTTPConnection.java:67)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:662)
+06/01/2017 16:08:25
+06/01/2017 16:08:26Erro ao invocar operacao [http://brux0338:9200/esb/services/ListarBilhetesPortabilidadev1?wsdl] = java.net.ConnectException: Connection refused: connectjava.net.ConnectException: Connection refused: connect
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:351)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:213)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:200)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:366)
+	at java.net.Socket.connect(Socket.java:529)
+	at java.net.Socket.connect(Socket.java:478)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:163)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:411)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:525)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:208)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:291)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:310)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:987)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:923)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:841)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1195)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:379)
+	at br.com.ws.client.connection.HTTPConnection.run(HTTPConnection.java:67)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:662)
+06/01/2017 16:08:26
+06/01/2017 16:08:26Erro ao invocar operacao [http://brux0338:9200/esb/services/TrocarNumeroTelefoneCrmv1?wsdl] = java.net.ConnectException: Connection refused: connectjava.net.ConnectException: Connection refused: connect
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:351)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:213)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:200)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:366)
+	at java.net.Socket.connect(Socket.java:529)
+	at java.net.Socket.connect(Socket.java:478)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:163)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:411)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:525)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:208)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:291)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:310)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:987)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:923)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:841)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1195)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:379)
+	at br.com.ws.client.connection.HTTPConnection.run(HTTPConnection.java:67)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:662)
+06/01/2017 16:08:26Erro ao invocar operacao [http://brux0338:9200/esb/services/EfetuarAceitePortabilidadev1?wsdl] = java.net.ConnectException: Connection refused: connectjava.net.ConnectException: Connection refused: connect
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:351)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:213)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:200)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:366)
+	at java.net.Socket.connect(Socket.java:529)
+	at java.net.Socket.connect(Socket.java:478)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:163)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:411)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:525)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:208)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:291)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:310)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:987)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:923)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:841)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1195)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:379)
+	at br.com.ws.client.connection.HTTPConnection.run(HTTPConnection.java:67)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:662)
+06/01/2017 16:08:26
+06/01/2017 16:08:26
+06/01/2017 16:08:27Erro ao invocar operacao [http://brux0338:9200/esb/services/ListarMotivosRecargav1?wsdl] = java.net.ConnectException: Connection refused: connectjava.net.ConnectException: Connection refused: connect
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:351)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:213)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:200)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:366)
+	at java.net.Socket.connect(Socket.java:529)
+	at java.net.Socket.connect(Socket.java:478)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:163)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:411)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:525)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:208)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:291)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:310)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:987)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:923)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:841)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1195)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:379)
+	at br.com.ws.client.connection.HTTPConnection.run(HTTPConnection.java:67)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:662)
+06/01/2017 16:08:27
+06/01/2017 16:08:27Erro ao invocar operacao [http://brux0338:9200/esb/services/CadastrarUsuarioGestorServicov1?wsdl] = java.net.ConnectException: Connection refused: connectjava.net.ConnectException: Connection refused: connect
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:351)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:213)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:200)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:366)
+	at java.net.Socket.connect(Socket.java:529)
+	at java.net.Socket.connect(Socket.java:478)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:163)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:411)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:525)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:208)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:291)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:310)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:987)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:923)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:841)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1195)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:379)
+	at br.com.ws.client.connection.HTTPConnection.run(HTTPConnection.java:67)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:662)
+06/01/2017 16:08:27
+06/01/2017 16:08:27Erro ao invocar operacao [http://brux0338:9200/esb/services/EfetuarBaixaProvisoriaBoletoPagamentov1?wsdl] = java.net.ConnectException: Connection refused: connectjava.net.ConnectException: Connection refused: connect
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:351)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:213)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:200)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:366)
+	at java.net.Socket.connect(Socket.java:529)
+	at java.net.Socket.connect(Socket.java:478)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:163)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:411)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:525)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:208)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:291)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:310)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:987)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:923)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:841)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1195)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:379)
+	at br.com.ws.client.connection.HTTPConnection.run(HTTPConnection.java:67)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:662)
+06/01/2017 16:08:27
+06/01/2017 16:08:28Erro ao invocar operacao [http://brux0338:9200/esb/services/AjustarCobrancaEventosAssinantev1?wsdl] = java.net.ConnectException: Connection refused: connectjava.net.ConnectException: Connection refused: connect
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:351)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:213)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:200)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:366)
+	at java.net.Socket.connect(Socket.java:529)
+	at java.net.Socket.connect(Socket.java:478)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:163)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:411)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:525)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:208)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:291)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:310)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:987)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:923)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:841)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1195)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:379)
+	at br.com.ws.client.connection.HTTPConnection.run(HTTPConnection.java:67)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:662)
+06/01/2017 16:08:28
+06/01/2017 16:08:28Erro ao invocar operacao [http://brux0338:9200/esb/services/AtualizarAutoCadastrov1?wsdl] = java.net.ConnectException: Connection refused: connectjava.net.ConnectException: Connection refused: connect
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:351)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:213)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:200)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:366)
+	at java.net.Socket.connect(Socket.java:529)
+	at java.net.Socket.connect(Socket.java:478)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:163)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:411)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:525)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:208)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:291)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:310)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:987)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:923)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:841)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1195)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:379)
+	at br.com.ws.client.connection.HTTPConnection.run(HTTPConnection.java:67)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:662)
+06/01/2017 16:08:28Erro ao invocar operacao [http://brux0338:9200/esb/services/ConsultarDadosOficiov1?wsdl] = java.net.ConnectException: Connection refused: connectjava.net.ConnectException: Connection refused: connect
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:351)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:213)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:200)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:366)
+	at java.net.Socket.connect(Socket.java:529)
+	at java.net.Socket.connect(Socket.java:478)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:163)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:411)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:525)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:208)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:291)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:310)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:987)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:923)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:841)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1195)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:379)
+	at br.com.ws.client.connection.HTTPConnection.run(HTTPConnection.java:67)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:662)
+06/01/2017 16:08:28
+06/01/2017 16:08:28
+06/01/2017 16:08:29Erro ao invocar operacao [http://brux0338:9200/esb/services/NotificarAgendamentoPortabilidadev1?wsdl] = java.net.ConnectException: Connection refused: connectjava.net.ConnectException: Connection refused: connect
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:351)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:213)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:200)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:366)
+	at java.net.Socket.connect(Socket.java:529)
+	at java.net.Socket.connect(Socket.java:478)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:163)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:411)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:525)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:208)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:291)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:310)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:987)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:923)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:841)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1195)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:379)
+	at br.com.ws.client.connection.HTTPConnection.run(HTTPConnection.java:67)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:662)
+06/01/2017 16:08:29
+06/01/2017 16:08:29Erro ao invocar operacao [http://brux0338:9200/esb/services/LiberarAparelhov1?wsdl] = java.net.ConnectException: Connection refused: connectjava.net.ConnectException: Connection refused: connect
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:351)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:213)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:200)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:366)
+	at java.net.Socket.connect(Socket.java:529)
+	at java.net.Socket.connect(Socket.java:478)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:163)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:411)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:525)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:208)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:291)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:310)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:987)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:923)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:841)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1195)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:379)
+	at br.com.ws.client.connection.HTTPConnection.run(HTTPConnection.java:67)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:662)
+06/01/2017 16:08:29
+06/01/2017 16:08:29Erro ao invocar operacao [http://brux0338:9200/esb/services/ConsultarLimitesAjusteRecargaAssinantev1?wsdl] = java.net.ConnectException: Connection refused: connectjava.net.ConnectException: Connection refused: connect
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:351)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:213)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:200)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:366)
+	at java.net.Socket.connect(Socket.java:529)
+	at java.net.Socket.connect(Socket.java:478)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:163)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:411)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:525)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:208)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:291)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:310)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:987)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:923)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:841)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1195)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:379)
+	at br.com.ws.client.connection.HTTPConnection.run(HTTPConnection.java:67)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:662)
+06/01/2017 16:08:29
+06/01/2017 16:08:30Erro ao invocar operacao [http://brux0338:9200/esb/services/GerarOrdemComprav1?wsdl] = java.net.ConnectException: Connection refused: connectjava.net.ConnectException: Connection refused: connect
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:351)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:213)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:200)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:366)
+	at java.net.Socket.connect(Socket.java:529)
+	at java.net.Socket.connect(Socket.java:478)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:163)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:411)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:525)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:208)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:291)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:310)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:987)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:923)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:841)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1195)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:379)
+	at br.com.ws.client.connection.HTTPConnection.run(HTTPConnection.java:67)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:662)
+06/01/2017 16:08:30
+06/01/2017 16:08:30Erro ao invocar operacao [http://brux0338:9200/esb/services/ListarGruposCartaoRecargav1?wsdl] = java.net.ConnectException: Connection refused: connectjava.net.ConnectException: Connection refused: connect
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:351)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:213)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:200)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:366)
+	at java.net.Socket.connect(Socket.java:529)
+	at java.net.Socket.connect(Socket.java:478)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:163)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:411)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:525)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:208)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:291)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:310)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:987)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:923)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:841)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1195)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:379)
+	at br.com.ws.client.connection.HTTPConnection.run(HTTPConnection.java:67)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:662)
+06/01/2017 16:08:30Erro ao invocar operacao [http://brux0338:9200/esb/services/ListarClientesv1?wsdl] = java.net.ConnectException: Connection refused: connectjava.net.ConnectException: Connection refused: connect
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:351)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:213)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:200)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:366)
+	at java.net.Socket.connect(Socket.java:529)
+	at java.net.Socket.connect(Socket.java:478)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:163)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:411)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:525)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:208)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:291)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:310)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:987)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:923)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:841)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1195)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:379)
+	at br.com.ws.client.connection.HTTPConnection.run(HTTPConnection.java:67)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:662)
+06/01/2017 16:08:30
+06/01/2017 16:08:30
+06/01/2017 16:08:31Erro ao invocar operacao [http://brux0338:9200/esb/services/ListarHistoricoAjustesRecargaAssinantev1?wsdl] = java.net.ConnectException: Connection refused: connectjava.net.ConnectException: Connection refused: connect
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:351)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:213)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:200)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:366)
+	at java.net.Socket.connect(Socket.java:529)
+	at java.net.Socket.connect(Socket.java:478)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:163)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:411)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:525)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:208)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:291)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:310)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:987)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:923)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:841)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1195)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:379)
+	at br.com.ws.client.connection.HTTPConnection.run(HTTPConnection.java:67)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:662)
+06/01/2017 16:08:31
+06/01/2017 16:08:31Erro ao invocar operacao [http://brux0338:9200/esb/services/ListarMotivosAtualizacaoReguaPrePagov1?wsdl] = java.net.ConnectException: Connection refused: connectjava.net.ConnectException: Connection refused: connect
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:351)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:213)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:200)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:366)
+	at java.net.Socket.connect(Socket.java:529)
+	at java.net.Socket.connect(Socket.java:478)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:163)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:411)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:525)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:208)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:291)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:310)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:987)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:923)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:841)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1195)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:379)
+	at br.com.ws.client.connection.HTTPConnection.run(HTTPConnection.java:67)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:662)
+06/01/2017 16:08:31
+06/01/2017 16:08:31Erro ao invocar operacao [http://brux0338:9200/esb/services/EstornarResgatePontuacaoClaroClubev1?wsdl] = java.net.ConnectException: Connection refused: connectjava.net.ConnectException: Connection refused: connect
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:351)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:213)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:200)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:366)
+	at java.net.Socket.connect(Socket.java:529)
+	at java.net.Socket.connect(Socket.java:478)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:163)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:411)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:525)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:208)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:291)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:310)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:987)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:923)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:841)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1195)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:379)
+	at br.com.ws.client.connection.HTTPConnection.run(HTTPConnection.java:67)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:662)
+06/01/2017 16:08:31
+06/01/2017 16:08:32Erro ao invocar operacao [http://brux0338:9200/esb/services/AjustarRecargaRevendedorv1?wsdl] = java.net.ConnectException: Connection refused: connectjava.net.ConnectException: Connection refused: connect
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:351)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:213)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:200)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:366)
+	at java.net.Socket.connect(Socket.java:529)
+	at java.net.Socket.connect(Socket.java:478)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:163)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:411)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:525)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:208)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:291)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:310)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:987)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:923)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:841)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1195)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:379)
+	at br.com.ws.client.connection.HTTPConnection.run(HTTPConnection.java:67)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:662)
+06/01/2017 16:08:32
+06/01/2017 16:08:32Erro ao invocar operacao [http://brux0338:9200/esb/services/CancelarOrdemSapv1?wsdl] = java.net.ConnectException: Connection refused: connectjava.net.ConnectException: Connection refused: connect
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:351)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:213)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:200)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:366)
+	at java.net.Socket.connect(Socket.java:529)
+	at java.net.Socket.connect(Socket.java:478)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:163)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:411)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:525)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:208)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:291)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:310)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:987)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:923)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:841)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1195)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:379)
+	at br.com.ws.client.connection.HTTPConnection.run(HTTPConnection.java:67)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:662)
+06/01/2017 16:08:32
+06/01/2017 16:08:32Erro ao invocar operacao [http://brux0338:9200/esb/services/GerarSenhaCorreioVozv1?wsdl] = java.net.ConnectException: Connection refused: connectjava.net.ConnectException: Connection refused: connect
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:351)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:213)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:200)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:366)
+	at java.net.Socket.connect(Socket.java:529)
+	at java.net.Socket.connect(Socket.java:478)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:163)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:411)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:525)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:208)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:291)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:310)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:987)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:923)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:841)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1195)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:379)
+	at br.com.ws.client.connection.HTTPConnection.run(HTTPConnection.java:67)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:662)
+06/01/2017 16:08:32
+06/01/2017 16:08:33Erro ao invocar operacao [http://brux0338:9200/esb/services/ListarSolicitacoesComparativoPlanosv1?wsdl] = java.net.ConnectException: Connection refused: connectjava.net.ConnectException: Connection refused: connect
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:351)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:213)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:200)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:366)
+	at java.net.Socket.connect(Socket.java:529)
+	at java.net.Socket.connect(Socket.java:478)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:163)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:411)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:525)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:208)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:291)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:310)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:987)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:923)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:841)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1195)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:379)
+	at br.com.ws.client.connection.HTTPConnection.run(HTTPConnection.java:67)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:662)
+06/01/2017 16:08:33
+06/01/2017 16:08:33Erro ao invocar operacao [http://brux0338:9200/esb/services/ConsultarAssinantePCRFv1?wsdl] = java.net.ConnectException: Connection refused: connectjava.net.ConnectException: Connection refused: connect
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:351)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:213)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:200)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:366)
+	at java.net.Socket.connect(Socket.java:529)
+	at java.net.Socket.connect(Socket.java:478)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:163)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:411)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:525)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:208)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:291)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:310)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:987)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:923)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:841)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1195)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:379)
+	at br.com.ws.client.connection.HTTPConnection.run(HTTPConnection.java:67)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:662)
+06/01/2017 16:08:33
+06/01/2017 16:08:33Erro ao invocar operacao [http://brux0338:9200/esb/services/ListarHorariosDisponiveisAgendamentoAtendimentov1?wsdl] = java.net.ConnectException: Connection refused: connectjava.net.ConnectException: Connection refused: connect
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:351)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:213)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:200)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:366)
+	at java.net.Socket.connect(Socket.java:529)
+	at java.net.Socket.connect(Socket.java:478)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:163)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:411)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:525)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:208)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:291)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:310)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:987)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:923)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:841)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1195)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:379)
+	at br.com.ws.client.connection.HTTPConnection.run(HTTPConnection.java:67)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:662)
+06/01/2017 16:08:33
+06/01/2017 16:08:34Erro ao invocar operacao [http://brux0338:9200/esb/services/ListarHistoricoChamadasAssinantev1?wsdl] = java.net.ConnectException: Connection refused: connectjava.net.ConnectException: Connection refused: connect
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:351)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:213)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:200)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:366)
+	at java.net.Socket.connect(Socket.java:529)
+	at java.net.Socket.connect(Socket.java:478)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:163)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:411)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:525)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:208)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:291)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:310)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:987)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:923)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:841)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1195)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:379)
+	at br.com.ws.client.connection.HTTPConnection.run(HTTPConnection.java:67)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:662)
+06/01/2017 16:08:34
+06/01/2017 16:08:34Erro ao invocar operacao [http://brux0338:9200/esb/services/ConsultarAgendamentoAtendimentov1?wsdl] = java.net.ConnectException: Connection refused: connectjava.net.ConnectException: Connection refused: connect
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:351)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:213)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:200)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:366)
+	at java.net.Socket.connect(Socket.java:529)
+	at java.net.Socket.connect(Socket.java:478)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:163)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:411)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:525)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:208)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:291)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:310)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:987)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:923)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:841)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1195)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:379)
+	at br.com.ws.client.connection.HTTPConnection.run(HTTPConnection.java:67)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:662)
+06/01/2017 16:08:34
+06/01/2017 16:08:34Erro ao invocar operacao [http://brux0338:9200/esb/services/GerarAgendamentoAtendimentov1?wsdl] = java.net.ConnectException: Connection refused: connectjava.net.ConnectException: Connection refused: connect
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:351)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:213)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:200)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:366)
+	at java.net.Socket.connect(Socket.java:529)
+	at java.net.Socket.connect(Socket.java:478)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:163)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:411)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:525)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:208)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:291)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:310)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:987)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:923)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:841)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1195)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:379)
+	at br.com.ws.client.connection.HTTPConnection.run(HTTPConnection.java:67)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:662)
+06/01/2017 16:08:34
+06/01/2017 16:08:35Erro ao invocar operacao [http://brux0338:9200/esb/services/ListarDatasValidasPortabilidadev1?wsdl] = java.net.ConnectException: Connection refused: connectjava.net.ConnectException: Connection refused: connect
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:351)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:213)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:200)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:366)
+	at java.net.Socket.connect(Socket.java:529)
+	at java.net.Socket.connect(Socket.java:478)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:163)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:411)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:525)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:208)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:291)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:310)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:987)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:923)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:841)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1195)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:379)
+	at br.com.ws.client.connection.HTTPConnection.run(HTTPConnection.java:67)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:662)
+06/01/2017 16:08:35
+06/01/2017 16:08:35Erro ao invocar operacao [http://brux0338:9200/esb/services/ConsultarCadastroUsuarioExternov1?wsdl] = java.net.ConnectException: Connection refused: connectjava.net.ConnectException: Connection refused: connect
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:351)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:213)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:200)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:366)
+	at java.net.Socket.connect(Socket.java:529)
+	at java.net.Socket.connect(Socket.java:478)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:163)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:411)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:525)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:208)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:291)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:310)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:987)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:923)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:841)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1195)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:379)
+	at br.com.ws.client.connection.HTTPConnection.run(HTTPConnection.java:67)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:662)
+06/01/2017 16:08:35
+06/01/2017 16:08:41 ; SUCC ; 200 ; 423730 ; GET ; http://brux0338:9200/esb/services/ConsultarDadosPeriodoContratoClientev1?wsdl
+06/01/2017 16:08:51 ; SUCC ; 200 ; 431159 ; GET ; http://brux0338:9200/esb/services/CalcularPlanoPrecoFlexv2?wsdl
+06/01/2017 16:08:55 ; SUCC ; 200 ; 153839 ; GET ; http://brux0338:9200/esb/services/ConsultarDadosDigitalizacaoDocumentacaov1?wsdl
+06/01/2017 16:08:56 ; SUCC ; 200 ; 152797 ; GET ; http://brux0338:9200/esb/services/RestaurarAssinantev2?wsdl
+06/01/2017 16:08:56 ; SUCC ; 200 ; 154777 ; GET ; http://brux0338:9200/esb/services/ConsultarLimitesDesbloqueioAparelhoRedev1?wsdl
+06/01/2017 16:08:57 ; SUCC ; 200 ; 154807 ; GET ; http://brux0338:9200/esb/services/ListarHistoricoDetalhadoPromocaoAssinantev1?wsdl
+06/01/2017 16:08:57 ; SUCC ; 200 ; 561370 ; GET ; http://brux0338:9200/esb/services/BloquearAparelhov1?wsdl
+06/01/2017 16:08:57 ----------- Fim de processamento: 06/01/2017 16:08:57
