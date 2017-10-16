@@ -1,0 +1,29 @@
+@CHARSET "ISO-8859-1";
+
+.borda {
+	border: 1px solid;
+	width: 400px;
+}
+
+.alert-error {
+	text-align: center;
+	color: #b94a48;
+	background-color: #f2dede;
+	border-color: #eed3d7;
+}
+
+.help-inline {
+	display: inline-block;
+	*display: inline;
+	padding-left: 5px;
+	vertical-align: middle;
+	*zoom: 1;
+}
+
+.gradeC {
+	background-color: #eeeeff;
+}
+
+.gradeX {
+	background-color: #ffdddd;
+}

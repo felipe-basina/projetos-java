@@ -1,0 +1,12 @@
+# Instalação da aplicação web no weblogic
+	http://stackoverflow.com/questions/24835051/deploy-spring-boot-app-in-weblogic
+ 
+ Definir as seguintes dependências na classe que possui o método 'main'
+ 
+ extends
+		SpringBootServletInitializer implements WebApplicationInitializer
+ 
+ Observação: utilizar versão java 1.6
+ 
+# JUnit
+ Utilizar versão java 1.7

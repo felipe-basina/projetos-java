@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+
+<tiles-definitions>
+
+	<definition name="layout.center" template="/WEB-INF/pages/layouts/layout-center.jsp">
+		<put-attribute name="title" value="" />
+		<put-attribute name="header" value="/WEB-INF/pages/commons/header.jsp" />
+		<put-attribute name="body" value="" />
+		<put-attribute name="footer" value="/WEB-INF/pages/commons/footer.jsp" />
+	</definition>
+
+	<definition name="layout.default" template="/WEB-INF/pages/layouts/layout-default.jsp">
+		<put-attribute name="title" value="" />
+		<put-attribute name="header" value="/WEB-INF/pages/commons/header.jsp" />
+		<put-attribute name="greeting" value="/WEB-INF/pages/commons/greeting.jsp" />
+		<put-attribute name="menu" value="/WEB-INF/pages/commons/menu.jsp" />
+		<put-attribute name="body" value="" />
+		<put-attribute name="footer" value="/WEB-INF/pages/commons/footer.jsp" />
+	</definition>
+
+	<definition name="login" extends="layout.center">
+		<put-attribute name="title" value="Login" />
+		<put-attribute name="body" value="/WEB-INF/pages/security/login/body.jsp" />
+	</definition>
+
+	<definition name="default" extends="layout.default">
+	</definition>
+
+	<definition name="environment" extends="layout.default">
+		<put-attribute name="title" value="Environment Properties" />
+		<put-attribute name="body" value="/WEB-INF/pages/operational/environment/body.jsp" />
+	</definition>
+
+	<definition name="log" extends="layout.default">
+		<put-attribute name="title" value="Log Properties" />
+		<put-attribute name="body" value="/WEB-INF/pages/operational/log/body.jsp" />
+	</definition>
+	
+	<definition name="contact" extends="layout.default">
+		<put-attribute name="title" value="Contact Manager" />
+		<put-attribute name="body" value="/WEB-INF/pages/contact/body.jsp" />
+	</definition>
+
+	<definition name="helloworld" extends="layout.default">
+		<put-attribute name="title" value="Hello World" />
+		<put-attribute name="body" value="/WEB-INF/pages/hello/body.jsp" />
+	</definition>
+	
+	<definition name="test" extends="layout.default">
+		<put-attribute name="title" value="Hello World" />
+		<put-attribute name="body" value="/WEB-INF/pages/test/body.jsp" />
+	</definition>
+	
+	<definition name="datetime" extends="layout.default">
+		<put-attribute name="title" value="Show Date Time" />
+		<put-attribute name="body" value="/WEB-INF/pages/datetime/body.jsp" />
+	</definition>
+	
+	<definition name="contactList" extends="layout.default">
+		<put-attribute name="title" value="Contact Manager" />
+		<put-attribute name="body" value="/WEB-INF/pages/contact/list/body.jsp" />
+	</definition>
+	
+	<definition name="editContact" extends="layout.default">
+		<put-attribute name="title" value="Contact Manager" />
+		<put-attribute name="body" value="/WEB-INF/pages/contact/edit/body.jsp" />
+	</definition>
+	
+	<definition name="seSenaoJsp" extends="layout.default">
+		<put-attribute name="title" value="If-Else JSP" />
+		<put-attribute name="body" value="/WEB-INF/pages/condicao/body.jsp" />
+	</definition>
+	
+	<definition name="crud" extends="layout.default">
+		<put-attribute name="title" value="C.R.U.D. JSP" />
+		<put-attribute name="body" value="/WEB-INF/pages/crud/body.jsp" />
+	</definition>
+	
+	<definition name="tabs" extends="layout.default">
+		<put-attribute name="title" value="Tabs JSP" />
+		<put-attribute name="body" value="/WEB-INF/pages/tabs/body.jsp" />
+	</definition>
+	
+	<definition name="trueorfalse" extends="layout.default">
+		<put-attribute name="title" value="Teste verdadeiro ou falso" />
+		<put-attribute name="body" value="/WEB-INF/pages/condicao/v2/body.jsp" />
+	</definition>
+	
+</tiles-definitions>

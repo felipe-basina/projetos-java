@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee"
+	xmlns:web="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+	id="WebApp_ID" version="2.5">
+	<display-name>spring-framework-web</display-name>
+
+	<welcome-file-list>
+		<welcome-file>index.jsp</welcome-file>
+	</welcome-file-list>
+
+<!-- 	error-page> <error-code>401</error-code> <location>/error-401.jsp</location> 
+		</error-page -->
+	<error-page>
+		<error-code>403</error-code>
+		<location>/error-403.jsp</location>
+	</error-page>
+
+	<error-page>
+		<error-code>404</error-code>
+		<location>/error-404.jsp</location>
+	</error-page>
+
+	<servlet>
+		<servlet-name>springmvc</servlet-name>
+		<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+		<init-param>
+			<param-name>contextConfigLocation</param-name>
+			<param-value>/WEB-INF/spring/spring-files.xml</param-value>
+		</init-param>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+	
+	<context-param>
+		<param-name>contextConfigLocation</param-name>
+		<param-value>/WEB-INF/spring/spring-files.xml</param-value>
+	</context-param>
+
+	<servlet-mapping>
+		<servlet-name>springmvc</servlet-name>
+		<url-pattern>*.do</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+        <servlet-name>jaxws-servlet</servlet-name>
+        <servlet-class>
+	          com.sun.xml.ws.transport.http.servlet.WSSpringServlet
+        </servlet-class>
+  	</servlet>
+  	
+	<servlet-mapping>
+         <servlet-name>jaxws-servlet</servlet-name>
+         <url-pattern>/showMessage</url-pattern>
+   	</servlet-mapping>
+
+	<listener>
+		<listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+	</listener>
+	<listener>
+		<listener-class>org.springframework.web.context.request.RequestContextListener</listener-class>
+	</listener>
+
+	<security-constraint>
+		<web-resource-collection>
+			<web-resource-name>Protected area requires authentication</web-resource-name>
+			<url-pattern>*.do</url-pattern>
+			<url-pattern>*.jsp</url-pattern>
+			<url-pattern>*.html</url-pattern>
+			<http-method>GET</http-method>
+			<http-method>POST</http-method>
+		</web-resource-collection>
+		<auth-constraint>
+			<role-name>appGrpAdmin</role-name>
+			<role-name>appGrpOper</role-name>
+			<role-name>appGrpUser</role-name>
+		</auth-constraint>
+	</security-constraint>
+
+	<security-constraint>
+		<web-resource-collection>
+			<web-resource-name>Protected area requires authentication</web-resource-name>
+			<url-pattern>/test2.do</url-pattern>
+			<http-method>GET</http-method>
+			<http-method>POST</http-method>
+		</web-resource-collection>
+		<auth-constraint>
+			<role-name>appGrpAdmin</role-name>
+		</auth-constraint>
+	</security-constraint>
+
+	<login-config>
+		<auth-method>FORM</auth-method>
+		<form-login-config>
+			<form-login-page>/login.jsp</form-login-page>
+			<form-error-page>/login.jsp?error=true</form-error-page>
+		</form-login-config>
+	</login-config>
+
+	<security-role>
+		<role-name>appGrpAdmin</role-name>
+	</security-role>
+	<security-role>
+		<role-name>appGrpOper</role-name>
+	</security-role>
+	<security-role>
+		<role-name>appGrpUser</role-name>
+	</security-role>
+
+	<filter>
+		<display-name>AuthorizationFilter</display-name>
+		<filter-name>AuthorizationFilter</filter-name>
+		<filter-class>br.com.claro.web.security.AuthorizationFilter</filter-class>
+	</filter>
+
+	<filter-mapping>
+		<filter-name>AuthorizationFilter</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+
+	<servlet>
+		<servlet-name>contatoServlet</servlet-name>
+		<servlet-class>br.com.spring.framework.web.servlet.ContatoServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>contatoServlet</servlet-name>
+		<url-pattern>*.cs</url-pattern>
+	</servlet-mapping>
+
+</web-app>

@@ -1,0 +1,16 @@
+# Referência
+	https://github.com/Youmoo/spring-mvc-with-angularJS
+	
+# Executar o projeto
+	mvn clean install jetty:run
+	
+# Acessar aplicação
+	http://localhost:8080/user/list.do
+	
+# Como o projeto original define o bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter' 
+em 'spring-servlet.xml' foi necessário adicionar a seguinte linha:
+ 
+ <bean class="org.springframework.http.converter.json.MappingJackson2HttpMessageConverter"/>
+ 
+ dessa forma é possível retornar um objeto qualquer (Map, String) na chamada ao controller 
+ pelo angularjs e não somente o tipo String

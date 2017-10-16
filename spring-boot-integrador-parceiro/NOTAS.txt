@@ -1,0 +1,31 @@
+# Executar spring boot
+mvn clean install -DskipTests=true spring-boot:run
+
+# Exemplo para definir valores cabeçalho direto no objeto 'request'
+
+	private HttpPost request;
+
+	private void definirCabecalho() {
+		this.request.removeHeaders(Parametros.CONTENT_TYPE_HEADER_PARAM.getValor());
+		this.request.addHeader(Parametros.CONTENT_TYPE_HEADER_PARAM.getValor(), 
+				Parametros.CONTENT_TYPE_HEADER_VALUE.getValor());
+		
+		this.request.removeHeaders(Parametros.ACCEPT_HEADER_PARAM.getValor());
+		this.request.addHeader(Parametros.ACCEPT_HEADER_PARAM.getValor(), 
+				Parametros.ACCEPT_HEADER_VALUE.getValor());
+
+		this.request.removeHeaders(Parametros.USERNAME_HEADER_PARAM.getValor());
+		this.request.addHeader(Parametros.USERNAME_HEADER_PARAM.getValor(), 
+				Parametros.USERNAME_HEADER_VALUE.getValor());
+		
+		this.request.removeHeaders(Parametros.AUTHENTICATION_TOKEN_HEADER_PARAM.getValor());
+		this.request.addHeader(Parametros.AUTHENTICATION_TOKEN_HEADER_PARAM.getValor(), 
+				Parametros.AUTHENTICATION_TOKEN_HEADER_VALUE.getValor());
+		
+		System.out.println("# Tamanho do cabecalho [ " + this.request.getAllHeaders().length + " ]");
+		
+	}
+	
+# Outra forma para criação do objeto 'httpClient'
+
+	HttpClient httpClient = HttpClientBuilder.create().build();

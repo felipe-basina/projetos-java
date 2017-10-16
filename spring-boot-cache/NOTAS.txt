@@ -1,0 +1,19 @@
+# Ehcache problema!
+	Não estava conseguindo fazer o ehcache funcionar. 
+	
+	O erro: ao tentar recuperar um registro, e caso ele não existisse, era adicionado no cache um valor nulo. 
+	Após o tempo de expiração, definido no arquivo ehcache.xml, ao tentar recuperar novamente o registro, e ele existindo, 
+	o registro era retornado é o valor substuido no cache
+	
+	Para evitar que isso ocorra, podemos configurar o cache para NÃO adicionar retornos nulos da seguinte forma:
+		
+		@Cacheable(value = "findUsuario", unless="#result == null")
+		
+	Referência: http://stackoverflow.com/questions/12113725/how-do-i-tell-spring-cache-not-to-cache-null-value-in-cacheable-annotation
+
+ Exemplo para remover um registro do cache (utilizar, por exemplo, quando o registro for removido da base de dados):
+ 
+ 	@CacheEvict(beforeInvocation = true, value = {"findByNomeCache", "findUsuario"}, key = "#p0.nome")
+	
+# Iterar sobre elementos do cache
+	Referência: http://stackoverflow.com/questions/11829383/how-to-iterate-on-a-cache-entries	

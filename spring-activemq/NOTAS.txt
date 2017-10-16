@@ -1,0 +1,10 @@
+# Referência
+	http://shengwangi.blogspot.com.br/2015/06/spring-jms-with-activemq-hello-world.html
+	
+# Iniciar activemq
+	C:\Dir\apache-group\activemq\apache-activemq-5.9.0\bin\activemq.bat
+	
+# Acessar a tela admnistrativa
+	Endereço broker: http://localhost:8161/
+	Credenciais para acesso: admin/admin
+	

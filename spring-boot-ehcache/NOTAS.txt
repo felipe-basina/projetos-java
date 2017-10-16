@@ -1,0 +1,27 @@
+# Referência
+	http://www.mkyong.com/spring/spring-caching-and-ehcache-example/
+	
+# Estratégia de persistência para cache
+	http://www.ehcache.org/generated/2.10.0/html/ehc-all/index.html#page/Ehcache_Documentation_Set/co-persist_config_examples.html
+	
+	Configuração com criação de arquivo temporário
+	
+	<!-- cache com arquivos -->
+	<diskStore path="java.io.tmpdir" />
+
+	<cache name="movieFindCache" maxEntriesLocalHeap="10000"
+		maxEntriesLocalDisk="1000" eternal="false" diskSpoolBufferSizeMB="20"
+		timeToIdleSeconds="300" timeToLiveSeconds="600"
+		memoryStoreEvictionPolicy="LFU" transactionalMode="off">
+		<!-- cache com arquivos -->
+ 		<persistence strategy="localTempSwap" />
+	</cache>
+	
+	Configuração em memória
+	
+	<cache name="movieFindCache" maxEntriesLocalHeap="10000"
+		eternal="false" diskSpoolBufferSizeMB="20"
+		timeToIdleSeconds="300" timeToLiveSeconds="600"
+		memoryStoreEvictionPolicy="LFU" transactionalMode="off">
+ 		<persistence strategy="none" />
+	</cache>

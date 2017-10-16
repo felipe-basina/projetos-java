@@ -1,0 +1,7 @@
+# Referência
+
+	https://github.com/kiranreddykasa/springfreemarker
+	
+# Executar o projeto
+
+	java =jar target\springfreemarker.jar

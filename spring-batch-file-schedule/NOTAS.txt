@@ -1,0 +1,13 @@
+-- Referência:
+
+http://www.mkyong.com/spring-batch/spring-batch-hello-world-example/
+
+-- Documentação oficial
+
+http://docs.spring.io/spring-batch/trunk/reference/html/domain.html
+
+-- Necessidade da definição: JobParameters jobParameters
+
+:: The formula is JobInstance = JobParameters + Job
+
+http://www.mkyong.com/spring-batch/spring-batch-a-job-instance-already-exists-and-is-complete-for-parameters/

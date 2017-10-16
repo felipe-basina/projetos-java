@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://claro.com.br/web/security/v1"
+	xmlns:tns="http://claro.com.br/web/security/v1" xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	elementFormDefault="qualified">
+
+	<xsd:element name="resources" type="tns:ResourceType" />
+
+	<xsd:complexType name="ResourceType">
+		<xsd:annotation>
+			<xsd:documentation>
+			<![CDATA[
+				Representa um comando do adapter
+			]]>
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:sequence>
+			<xsd:element name="url" type="tns:UrlType"
+				minOccurs="0" maxOccurs="unbounded">
+				<xsd:annotation>
+					<xsd:documentation>
+					<![CDATA[
+						Configuração de banco de dados
+					]]>
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+		</xsd:sequence>
+	</xsd:complexType>
+
+	<xsd:complexType name="UrlType">
+		<xsd:sequence>
+		</xsd:sequence>
+		<xsd:attribute name="pattern" type="xsd:string" use="required" />
+		<xsd:attribute name="roles" type="xsd:string" use="required" />
+	</xsd:complexType>
+
+
+</schema>

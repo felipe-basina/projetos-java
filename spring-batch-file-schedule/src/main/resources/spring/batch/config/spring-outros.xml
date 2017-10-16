@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:beans="http://www.springframework.org/schema/beans"
+	xmlns:task="http://www.springframework.org/schema/task"
+	xsi:schemaLocation="
+	http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans.xsd
+	http://www.springframework.org/schema/task 
+	http://www.springframework.org/schema/task/spring-task-3.1.xsd">
+	
+<!-- 	<bean id="props" -->
+<!-- 		class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer"> -->
+<!-- 		<property name="location"> -->
+<!-- 			<value>classpath:resources/teste.properties</value> -->
+<!-- 		</property> -->
+<!-- 	</bean> -->
+
+<!-- 	<bean id="configuracao" class="generic.dao.model.Configuracao"> -->
+<!-- 		<property name="valor" value="${teste}" /> -->
+<!-- 	</bean> -->
+	
+	<!--
+		Exemplo de execução de processo 
+		fixed-rate: processa sem intervalos
+		fixed-delay: processa x tempo depois entre execuções (anterior e próxima)
+	 -->
+	<task:scheduled-tasks>
+		<task:scheduled ref="prox" method="proc" fixed-delay="15000" />
+	</task:scheduled-tasks>	
+</beans>

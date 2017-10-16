@@ -1,0 +1,2 @@
+ Este projeto não executa no WebLogic porque não define, de maneira explícita,
+ um objeto do tipo 'javax.sql.DataSource'

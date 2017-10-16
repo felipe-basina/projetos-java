@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
+<log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/">
+
+	<appender name="display" class="org.apache.log4j.ConsoleAppender">
+		<param name="Threshold" value="DEBUG" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d %p - %m%n" />
+		</layout>
+	</appender>
+
+	<logger name="root">
+		<level value="DEBUG" />
+		<appender-ref ref="display" />
+	</logger>
+
+	<logger name="spring-security-taglibs">
+		<level value="ERROR" />
+		<appender-ref ref="display" />
+	</logger>
+
+	<logger name="com.mchange.v2">
+		<level value="ERROR" />
+		<appender-ref ref="display" />
+	</logger>
+
+	<logger name="org.springframework">
+		<level value="ERROR" />
+		<appender-ref ref="display" />
+	</logger>
+
+	<logger name="org.hibernate">
+		<level value="FATAL" />
+		<appender-ref ref="display" />
+	</logger>
+
+	<logger name="org.jboss.logging">
+		<level value="FATAL" />
+		<appender-ref ref="display" />
+	</logger>
+
+	<logger name="org.eclipse.persistence">
+		<level value="FINE" />
+		<appender-ref ref="display" />
+	</logger>
+
+</log4j:configuration> 

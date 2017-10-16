@@ -1,0 +1,1 @@
+Spring freemarker sample with spring boot

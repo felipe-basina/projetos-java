@@ -1,0 +1,2 @@
+# Referência
+	http://www.javabeat.net/spring-data-jpa-querydsl-integration/?et_monarch_popup=true

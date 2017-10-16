@@ -1,0 +1,37 @@
+<persistence xmlns="http://java.sun.com/xml/ns/persistence"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_1_0.xsd"
+	version="1.0">
+	<persistence-unit name="SUECore_Unit"
+		transaction-type="RESOURCE_LOCAL">
+
+		<provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+		
+		<class>spring.jpa.eclipselink.domain.UsuarioAutenticacao</class>
+		<class>spring.jpa.eclipselink.domain.ParametroSistema</class>
+		<class>spring.jpa.eclipselink.domain.UsuarioAutorizacao</class>
+		<class>spring.jpa.eclipselink.domain.UsuarioPerfilRecurso</class>
+		<class>spring.jpa.eclipselink.domain.Perfil</class>
+		<class>spring.jpa.eclipselink.domain.PerfilPermissao</class>
+		<class>spring.jpa.eclipselink.domain.Permissao</class>
+		<class>spring.jpa.eclipselink.domain.PermissaoParametro</class>
+		<class>spring.jpa.eclipselink.domain.Recurso</class>
+		<class>spring.jpa.eclipselink.domain.RecursoParametro</class>
+		<class>spring.jpa.eclipselink.domain.TipoEvento</class>
+		<class>spring.jpa.eclipselink.domain.LogEventos</class>
+		<class>spring.jpa.eclipselink.domain.ValidacaoToken</class>
+		
+		<properties>
+			<property name="eclipselink.target-server" value="WebLogic_10" />
+			<property name="eclipselink.weaving" value="false" />
+			<property name="eclipselink.target-database" value="Oracle" />
+			<!-- Niveis de log 
+				OFF - SEVERE - WARNING - INFO - CONFIG - FINE - FINER - FINEST - ALL
+			 -->
+			<property name="eclipselink.logging.level.sql" value="fine"/>
+ 			<property name="eclipselink.logging.parameters" value="true"/>
+ 			<property name="eclipselink.cache.shared.default" value="false"/>
+		</properties>
+
+	</persistence-unit>
+</persistence>

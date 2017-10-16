@@ -1,0 +1,20 @@
+ Para que seja possível a execução do projeto em um servidor WebLogic é necessário
+ alterar o arquivo <weblogic.xml> e adicionar a seguinte linha
+ 
+ 	<wls:package-name>javax.persistence.*</wls:package-name>
+ 	 
+ dentro de
+ 
+ 	<wls:container-descriptor>
+ 		<wls:prefer-application-packages>
+ 
+ ###########
+ 
+ pom.xml não deve ter o atributo definido
+ 
+ 	<scope>provided</scope>
+ 	
+ para as seguintes dependências
+ 
+ 	<artifactId>spring-boot-starter-data-jpa</artifactId>
+ 	<artifactId>spring-boot-starter-web</artifactId>

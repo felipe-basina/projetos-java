@@ -1,0 +1,35 @@
+# Referência
+	http://www.infoq.com/br/articles/boot-microservices
+	
+# Spring boot Initializer
+	https://start.spring.io/
+	
+# Executar projeto
+	mvn spring-boot:run
+	
+# Testes
+
+ -- create
+
+{
+    "productId": "DEF0001",
+    "productName": "MakerBot",
+    "shortDescription": "Um produto que faz outros produtos",
+    "longDescription": "Esta é uma descrição completa para um MarkerBot, que é basicamente um produto que faz outros produtos.",
+    "inventoryId": "00854321"
+}
+
+-- get
+
+/ABCD1234
+
+-- delete
+
+/ABCD1234
+
+-- search
+
+/search?q=bot
+
+# Informações sobre spring-actuator (métricas on-line)
+	http://www.javabeat.net/spring-boot-actuator/

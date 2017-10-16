@@ -1,0 +1,11 @@
+CREATE TABLE 'teste' (
+  'IDENTIFICADOR' int(11) NOT NULL,
+  'DESCRICAO' varchar(100) NOT NULL,
+  'dh_criacao' datetime DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1
+
+CREATE TABLE 'oteste' (
+  'IDENTIFICADOR_O' int(11) NOT NULL,
+  'DESCRICAO_O' varchar(100) NOT NULL,
+  'dh_criacao_o' datetime DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1

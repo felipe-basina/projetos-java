@@ -1,0 +1,13 @@
+# Referência
+
+	https://spring.io/guides/gs/securing-web/
+	
+# Executar o projeto
+	
+	mvn clean install
+	
+	java -jar target\[nome-projeto].jar
+	
+# Observação
+
+	Para que o plugin do spring possa ser usado deve ser utilizado a versão maven >= 3.2

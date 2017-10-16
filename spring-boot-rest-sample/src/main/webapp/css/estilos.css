@@ -1,0 +1,103 @@
+@CHARSET "ISO-8859-1";
+
+.sucesso {
+	font-weight: bold;
+	color: green;
+	float: both;
+	clear: left;
+	margin-top: 120px;
+	padding: 20px;
+	border: 1px dashed green;
+}
+
+.erro {
+	font-weight: bold;
+	color: red;
+	float: both;
+	clear: left;
+	margin-top: 120px;
+	padding: 20px;
+	border: 1px dashed red;
+}
+
+#div_esquerda label {
+	padding: 6px;
+	display: inline-block;
+    float: left;
+    clear: left;
+    width: 95px;
+    text-align: right;
+	font-weight: bold;
+	color: grey;
+}
+
+#div_esquerda input[type="text"] {
+	display: inline-block;
+	float: left;
+	width: 300px;
+}
+
+.commons {
+	margin: 14px;
+	padding: 25px;
+	float: left;
+	width: 280px;
+	height: 190px;
+}
+
+.clearfix{
+    clear: both;
+}
+
+#div_principal {
+	border: 3px solid black;
+	width: 750px;
+	height: 545px;
+}
+
+#div_esquerda {
+	border: 0px solid red;
+	width: 480px;
+	text-align: left;
+}
+
+#div_direita {
+	border: 0px solid green;
+	text-align: center;
+	width: 80px;
+}
+
+#div_central {
+	width: 641px;
+	border: 0px solid orange;
+}
+
+#lista {
+	border: 0px solid cyan;
+	width: 640px;
+	height: 200px;
+}
+
+table.dataTable tbody tr {
+	background-color: #E6FFE6;
+}
+
+th {
+    white-space: nowrap;
+}
+
+span {
+	border: 1px red solid;
+	color: red;
+	padding: 10px;
+}
+
+#tabela_length select, .dataTables_wrapper .dataTables_filter input {
+	margin-left: 1.2em;
+	border-radius: 15px;
+	width: 120px;
+}
+
+.alinhamento-texto {
+	text-align: center;
+}

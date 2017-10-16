@@ -1,0 +1,61 @@
+label.error {
+    padding-left: 25px;
+    font-size: 10px;
+    font-weight: bold;
+    color: #D80000;
+	text-align: left;
+	display: inline-block;
+}
+
+.form-control {
+	display: inline-block;
+    width: 40% !important;
+}
+
+.dataTables_length {
+	float: right !important;
+}
+
+.dataTables_filter {
+	float: left !important;
+}
+
+body { /* http://www.w3schools.com/tags/ref_colorpicker.asp */ 
+	background: #e5f9ff !important; 
+}
+
+.msg-alerta, .error, .msg-alerta-register {
+	color: red;
+	font-weight: bold;
+}
+
+.msg-sucesso {
+	color: green;
+	font-weight: bold;
+}
+
+.align-center {
+	text-align: center;
+}
+
+.dataTables_wrapper {
+	min-height: 250px !important;
+	width: 60% !important;
+}
+
+.dataTables_paginate a {
+	cursor: pointer !important;
+}
+
+.ui-dialog-titlebar-close {
+  visibility: hidden;
+}
+
+.ui-widget-header {
+	background: #e5f9ff !important;
+	border: 0px !important;
+}
+
+.ui-widget-content {
+	background: #e5f9ff !important;
+}

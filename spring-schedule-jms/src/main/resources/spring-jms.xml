@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+	   		http://www.springframework.org/schema/beans/spring-beans-3.1.xsd">
+
+	<bean id="jndiTemplate" class="org.springframework.jndi.JndiTemplate">
+		<property name="environment">
+			<props>
+				<prop key="java.naming.factory.initial">weblogic.jndi.WLInitialContextFactory</prop>
+				<prop key="java.naming.provider.url">$[jms.template.provider.url]</prop>
+				<prop key="java.naming.security.principal">$[jms.template.security.principal]</prop>
+				<prop key="java.naming.security.credentials">$[jms.template.security.credentials]</prop>
+			</props>
+		</property>
+	</bean>
+
+	<bean id="queueConnectionFactory" class="org.springframework.jndi.JndiObjectFactoryBean">
+		<property name="jndiTemplate">
+			<ref bean="jndiTemplate" />
+		</property>
+		<property name="jndiName">
+			<value>$[jms.connection.factory]</value>
+		</property>
+	</bean>
+
+	<bean id="jmsDestinationResolver" class="org.springframework.jms.support.destination.JndiDestinationResolver">
+		<property name="jndiTemplate">
+			<ref bean="jndiTemplate" />
+		</property>
+		<property name="cache">
+			<value>true</value>
+		</property>
+	</bean>
+
+	<bean id="jmsTemplate" class="org.springframework.jms.core.JmsTemplate">
+		<property name="connectionFactory">
+			<ref bean="queueConnectionFactory" />
+		</property>
+		<property name="destinationResolver">
+			<ref bean="jmsDestinationResolver" />
+		</property>
+	</bean>
+
+	<!-- :: INICIO :: Configuração para fila de carga de mensagem -->
+	
+	<bean id="jmsLoadMessageJmsClient" class="org.springframework.jndi.JndiObjectFactoryBean">
+		<property name="jndiTemplate">
+			<ref bean="jndiTemplate" />
+		</property>
+		<property name="jndiName">
+			<value>$[jms.queue.load.message.name]</value>
+		</property>
+	</bean>
+	
+	<bean id="loadMessageListener" class="org.springframework.jms.listener.DefaultMessageListenerContainer">
+		<property name="maxConcurrentConsumers">
+			<value>$[jms.total.consumer]</value>
+		</property>
+		<property name="connectionFactory" ref="queueConnectionFactory" />
+		<property name="destination" ref="jmsLoadMessageJmsClient" />
+		<property name="messageListener" ref="loadMessageJmsMdb" />
+		<property name="maxMessagesPerTask" value="1" />
+	</bean>
+
+	<!-- :: FIM :: Configuração para fila de carga de mensagem -->
+
+	<!-- :: INICIO :: Configuração para fila de atualização de mensagem -->
+
+	<bean id="jmsUpdateMessageJmsClient" class="org.springframework.jndi.JndiObjectFactoryBean">
+		<property name="jndiTemplate">
+			<ref bean="jndiTemplate" />
+		</property>
+		<property name="jndiName">
+			<value>$[jms.queue.update.message.name]</value>
+		</property>
+	</bean>
+	
+	<bean id="updateMessageListener" class="org.springframework.jms.listener.DefaultMessageListenerContainer">
+		<property name="maxConcurrentConsumers">
+			<value>$[jms.total.consumer]</value>
+		</property>
+		<property name="connectionFactory" ref="queueConnectionFactory" />
+		<property name="destination" ref="jmsUpdateMessageJmsClient" />
+		<property name="messageListener" ref="updateMessageJmsMdb" />
+		<property name="maxMessagesPerTask" value="1" />
+	</bean>
+	
+	<!-- :: FIM :: Configuração para fila de atualização de mensagem -->
+	
+</beans>

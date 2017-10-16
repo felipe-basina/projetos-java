@@ -1,0 +1,11 @@
+ -- Referência:
+ 
+ https://github.com/spring-projects/spring-boot/tree/master/spring-boot-samples/spring-boot-sample-ws
+ 
+ -- Comando maven para executar projeto
+ 
+ mvn spring-boot:run
+ 
+ -- URL para acesso
+ 
+ http://localhost:8080/services/holidayService/holiday.wsdl

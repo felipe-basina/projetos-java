@@ -1,0 +1,39 @@
+<persistence xmlns="http://java.sun.com/xml/ns/persistence"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_1_0.xsd"
+	version="1.0">
+	<persistence-unit name="TorpedoEquipeUnit"
+		transaction-type="RESOURCE_LOCAL">
+
+		<provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+
+		<class>spring.jpa.eclipselink.domain.Action</class>
+		<class>spring.jpa.eclipselink.domain.ActionProfile</class>
+		<class>spring.jpa.eclipselink.domain.ActionProfilePK</class>
+		<class>spring.jpa.eclipselink.domain.Appointment</class>
+		<class>spring.jpa.eclipselink.domain.Company</class>
+		<class>spring.jpa.eclipselink.domain.CompanyGroup</class>
+		<class>spring.jpa.eclipselink.domain.Config</class>
+		<class>spring.jpa.eclipselink.domain.MessageModel</class>
+		<class>spring.jpa.eclipselink.domain.Processing</class>
+		<class>spring.jpa.eclipselink.domain.Profile</class>
+		<class>spring.jpa.eclipselink.domain.Receipt</class>
+		<class>spring.jpa.eclipselink.domain.SPSMessage</class>
+		<class>spring.jpa.eclipselink.domain.Status</class>
+		<class>spring.jpa.eclipselink.domain.User</class>
+		<class>spring.jpa.eclipselink.domain.UserGroup</class>
+		<class>spring.jpa.eclipselink.domain.UserGroupPK</class>
+
+		<properties>
+			<property name="eclipselink.target-server" value="WebLogic_10" />
+			<property name="eclipselink.weaving" value="false" />
+			<property name="eclipselink.target-database" value="Oracle" />
+			<!-- Niveis de log OFF - SEVERE - WARNING - INFO - CONFIG - FINE - FINER 
+				- FINEST - ALL -->
+			<property name="eclipselink.logging.level.sql" value="fine" />
+			<property name="eclipselink.logging.parameters" value="true" />
+			<property name="eclipselink.cache.shared.default" value="false" />
+		</properties>
+
+	</persistence-unit>
+</persistence>

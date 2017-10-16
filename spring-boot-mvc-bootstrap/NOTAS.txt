@@ -1,0 +1,36 @@
+# Referência spring mvc + testes de unidade em controllers
+	http://www.petrikainulainen.net/spring-mvc-test-tutorial/
+
+# Build da aplicação com execução dos testes de unidade
+	mvn clean install
+	
+# Build da aplicação sem excecução dos testes de unidade
+	mvn clean install -DskipTests=true
+	
+# Executar aplicação
+	java -jar target\<nome-projeto>.war [configuração com spring-boot no classpath]
+	
+	mvn jetty:run [configuração sem spring-boot no classpath]
+	
+# Acesso aplicação
+	http://localhost:7001/bootunittest
+	
+# Acessar a base de dados em memória
+Referência: http://www.javatips.net/blog/2014/07/how-to-view-content-of-h2-in-memory-database-file-database?page=2
+	1. Executar a classe main InMemoryDatabaseConsole
+	
+	2. Executar o jar:
+		java -jar [HOME]\h2-1.3.172.jar
+		
+	3. O navegador será aberto e no campo URL: 
+		adicionar o endereço para acesso à base (ver application.properties # 2)
+		
+# Weblogic
+	Para executar o projeto no weblogic 12.1.1.0 é necessário compilá-lo com a versão 1.6 do java
+	
+# JUnit
+	Para executar os testes pelo junit é necessário utilizar a versão 1.7 do java
+
+# Logback
+	Remover mensagens de status do loback
+	http://stackoverflow.com/questions/3257154/how-to-prevent-logback-from-outputting-its-own-status-at-the-start-of-every-log

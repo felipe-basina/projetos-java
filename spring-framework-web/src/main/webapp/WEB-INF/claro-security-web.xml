@@ -1,0 +1,9 @@
+
+<resources xmlns="http://claro.com.br/web/security/v1"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://claro.com.br/web/security/v1 claro-security-web-v1.xsd ">
+
+	<url pattern="/test2" roles="appGrpAdmin" />
+	<url pattern="/test" roles="appGrpUser" />
+	<url pattern="/**/*.do" roles="appGrpUser" />
+</resources>

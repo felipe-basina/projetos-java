@@ -1,0 +1,19 @@
+error.security.userid.required=O campo [usuário ID] é obrigatório
+error.security.password.required=O campo [senha] é obrigatório
+error.security.invalid.login=Usuário e senha inválidos
+
+msg.wellcome=Bem vindo, 
+
+label.authentication=Autenticação
+label.example=Exemplo
+label.exit=Sair
+label.feature.a=Funcionalidade A
+label.feature.b=Funcionalidade B
+label.logon=Autenticar
+label.version=Versão
+label.send=Enviar
+label.reset=Limpar
+
+prompt.name=Nome:
+prompt.userId=Usuário:
+prompt.password=Senha:

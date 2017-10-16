@@ -1,0 +1,15 @@
+ EXECUTAR COMANDOS NO DIRETÓRIO DO PROJETO
+ 
+ - Para que o projeto possa ser compatível com o eclipse
+ 
+ 	gradle eclipse
+ 
+ - Para acessar o projeto executar a 'task'
+ 
+ 	gradle jettyRun
+ 	
+ -- Para gerar arquivo 'war' executar a 'task'
+ 
+ 	gradle war
+ 	
+ # Referência: http://www.mkyong.com/spring-mvc/gradle-spring-mvc-web-project-example/

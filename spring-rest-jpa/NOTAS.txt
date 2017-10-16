@@ -1,0 +1,29 @@
+# Referencia:
+	http://howtodoinjava.com/2015/02/20/spring-rest-hello-world-json-example/
+	
+# Executar o projeto (spring boot):
+	mvn clean install
+	
+	java -jar target\spring-rest-jpa-1.0.war
+	
+# Sobrescrever mensagens validação JQuery
+	http://stackoverflow.com/questions/2457032/jquery-validation-change-default-error-message
+	
+# Gerar o wadl
+	http://localhost:8080/restjpa/employee/employeerest.wadl
+	
+# Validação de campos
+	http://g00glen00b.be/validating-the-input-of-your-rest-api-with-spring/
+	
+# Implantação no servidor WebLogic
+	1. web.xml
+		Comentar definição <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+		
+	2. Tiles
+		Utilizar a configuração do tiles definido na operação WebMvcConfig.tilesConfigurer(),
+		não consegui fazer a instalação da aplicação quando a configuração do tiles estava no arquivo
+		*spring*.xml
+		
+# Correção de enconde em javascript
+	http://stackoverflow.com/questions/5396560/how-do-i-convert-special-utf-8-chars-to-their-iso-8859-1-equivalent-using-javasc
+	Ex: 'usuÃ¡rios' decodeURIComponent(escape('usuÃ¡rios') = 'usuários'

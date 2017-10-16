@@ -1,0 +1,23 @@
+<!DOCTYPE weblogic-web-app PUBLIC "-//BEA Systems, Inc.//DTD Web Application 8.1//EN" "http://www.bea.com/servers/wls810/dtd/weblogic810-web-jar.dtd">
+<weblogic-web-app>
+
+	<security-role-assignment>
+		<role-name>appGrpUser</role-name>
+		<principal-name>appGrpUser</principal-name>
+	</security-role-assignment>
+
+	<security-role-assignment>
+		<role-name>appGrpOper</role-name>
+		<principal-name>appGrpOper</principal-name>
+	</security-role-assignment>
+
+	<security-role-assignment>
+		<role-name>appGrpAdmin</role-name>
+		<principal-name>appGrpAdmin</principal-name>
+	</security-role-assignment>
+
+	<container-descriptor>
+		<prefer-web-inf-classes>true</prefer-web-inf-classes>
+	</container-descriptor>
+
+</weblogic-web-app>

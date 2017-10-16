@@ -1,0 +1,44 @@
+package br.com.spring.framework.web.controller;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.SessionAttributes;
+import org.springframework.web.servlet.ModelAndView;
+
+@Controller
+@SessionAttributes
+public class AuthenticationController {
+
+	protected final Logger logger = LoggerFactory
+			.getLogger(AuthenticationController.class);
+
+	@RequestMapping("/login")
+	public ModelAndView login(HttpServletRequest request,
+			HttpServletResponse response) {
+
+		logger.debug("AuthenticationController.login()");
+		return new ModelAndView("login");
+	}
+
+	@RequestMapping("/logout")
+	public String logout(HttpServletRequest request,
+			HttpServletResponse response) {
+
+		logger.debug("LogoutController.logout()");
+		HttpSession session = request.getSession();
+		String userId = request.getRemoteUser();
+		String sessionId = session.getId();
+		session.invalidate();
+		logger.info("User [{}] has been logout from HTTP Session [{}]", userId,
+				sessionId);
+
+		return "redirect:index.jsp";
+	}
+
+}

@@ -1,0 +1,6 @@
+# Referência:
+	http://www.tutorialspoint.com/spring/spring_jdbc_example.htm
+	
+# Utilizando transação
+ Ao configurar a transação de maneira explícita no arquivo application-context.xml o commit acontece de maneira mais rápida.
+ Isso acontece porque a transação já foi iniciada!

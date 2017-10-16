@@ -1,0 +1,11 @@
+1. Para que ocorra o roll-back, utilizando anotações @Transactional, deve-se lançar a exceção e não simplesmente tratá-la no método onde a transação é iniciada
+ 1.1 Utilizar o atributo da anotação @Transactional = rollbackFor
+# Referência:
+	http://docs.spring.io/spring/docs/current/spring-framework-reference/htmlsingle/#tx-decl-explained 
+
+2. Para que a marcação REQUIRE_NEWS funcione, o método que possui a transação com esse método de propagação DEVE ser definido em outro bean (classe). 
+Caso tal método seja declarado na mesma classe onde está o método que ocorreu o roll-back, ocorrerá o roll-back para ele também
+# Referência:
+	http://stackoverflow.com/questions/28480480/propagation-requires-new-does-not-create-a-new-transaction-in-spring-with-jpa
+
+3. A boa prática é NUNCA definir a anotação @Transactional na classe do repositório, mas sim, no método de negócio (@Service) que executará a operação no repositório

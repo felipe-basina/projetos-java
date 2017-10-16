@@ -1,0 +1,20 @@
+apply plugin: 'java'
+apply plugin: 'eclipse'
+archivesBaseName = 'concretepage'
+version = '1' 
+repositories {
+    maven { url "https://repo.spring.io/libs-release" }
+    mavenLocal()
+    mavenCentral()
+}
+dependencies {
+    compile 'org.springframework.boot:spring-boot-starter:1.2.3.RELEASE'
+    compile 'org.springframework:spring-context-support:4.1.6.RELEASE'
+    compile 'org.springframework:spring-tx:4.1.6.RELEASE'
+    compile 'org.quartz-scheduler:quartz:2.2.1'
+} 
+jar {
+	manifest {
+		attributes 'Main-Class': 'com.concretepage.Main'
+	}
+}

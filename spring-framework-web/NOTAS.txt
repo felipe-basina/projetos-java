@@ -1,0 +1,23 @@
+# Comando para instalação de jars no repositório maven local
+ Ex: 
+ mvn install:install-file -Dfile=C:/Dir/eclipse/luna/lunadev/claro-security-libs/lib/claro-security-taglib-2.0.0.jar -DgroupId=br.com.claro.taglib.security -DartifactId=claro-security-taglib -Dversion=2.0.0 -Dpackaging=jar
+
+ mvn install:install-file -Dfile=C:/Dir/eclipse/luna/lunadev/claro-security-libs/lib/claro-security-web-1.0.0.jar -DgroupId=br.com.claro.web.security -DartifactId=claro-security-web -Dversion=1.0.0 -Dpackaging=jar
+
+ mvn install:install-file -Dfile=C:/Dir/eclipse/luna/lunadev/claro-security-libs/lib/claro-util-taglib-2.0.0.jar -DgroupId=br.com.claro.taglib.util -DartifactId=claro-util-taglib -Dversion=2.0.0 -Dpackaging=jar
+ 
+# Procedimento para executar debug remoto no tomcat
+ Referência: http://blog.trifork.com/2014/07/14/how-to-remotely-debug-application-running-on-tomcat-from-within-intellij-idea/
+	
+	1. Alterar o arquivo CATALINA_HOME\bin\catalina.bat e definir o seguinte valor
+	
+	set JPDA_OPTS="-agentlib:jdwp=transport=dt_socket,address=8181,server=y,suspend=n"
+	
+	2. Executar o seguinte comando dentro de CATALINA_HOME\bin\
+	
+	catalina.bat jpda start
+	
+	3. Acessar a aplicação na porta de deployment
+	
+	4. Configurar o projeto no eclipse para executar em debug remoto. Utilizar a mesma porta definida no passo 1 (address)
+		

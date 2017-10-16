@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!-- <!DOCTYPE tiles-definitions PUBLIC -->
+<!--        "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN" -->
+<!--        "http://tiles.apache.org/dtds/tiles-config_2_0.dtd"> -->
+
+<!DOCTYPE tiles-definitions PUBLIC
+      "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN" 
+      "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+
+<tiles-definitions>
+
+	<definition name="layout.blank" template="/WEB-INF/pages/commons/layout-blank.jsp">
+		<put-attribute name="title" value="" />
+		<put-attribute name="body" value="" />
+	</definition>
+
+	<definition name="layout.default" template="/WEB-INF/pages/commons/layout-default.jsp">
+		<put-attribute name="title" value="" />
+		<put-attribute name="header" value="/WEB-INF/pages/commons/header.jsp" />
+		<put-attribute name="body" value="" />
+		<put-attribute name="footer" value="/WEB-INF/pages/commons/footer.jsp" />
+	</definition>
+
+	<definition name="layout.login" template="/WEB-INF/pages/commons/layout-login.jsp">
+		<put-attribute name="title" value="" />
+		<put-attribute name="header" value="/WEB-INF/pages/commons/header-login.jsp" />
+		<put-attribute name="body" value="" />
+	</definition>
+
+	<definition name="login" extends="layout.login">
+		<put-attribute name="title" value="Login" />
+		<put-attribute name="body" value="/WEB-INF/pages/security/login/body.jsp" />
+	</definition>
+	
+	<definition name="usuario/form" extends="layout.default">
+		<put-attribute name="title" value="CRUD :: Spring boot sample" />
+		<put-attribute name="body" value="/WEB-INF/pages/usuario/body.jsp" />
+	</definition>
+	
+	<definition name="404" extends="layout.blank">
+		<put-attribute name="title" value="Página não encontrada" />
+		<put-attribute name="body" value="/WEB-INF/pages/404/body.jsp" />
+	</definition>
+
+</tiles-definitions>

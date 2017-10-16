@@ -1,0 +1,19 @@
+error.security.userid.required=El campo [usuario id] es obligatorio
+error.security.password.required=El campo [contrase�a] es obligatorio
+error.security.invalid.login=Usuario e contrase�a incorrecto
+
+msg.wellcome=Bienvenido, 
+
+label.authentication=Autenticaci�n
+label.example=Ejemplo
+label.clean=Limpar
+label.feature.a=Funcionalidad A
+label.feature.b=Funcionalidad B
+label.logon=Autenticar
+label.version=Versi�n
+label.send=Enviar
+label.reset=Limpiar
+
+prompt.name=Nombre:
+prompt.userId=Usuario:
+prompt.password=Contrase�a:

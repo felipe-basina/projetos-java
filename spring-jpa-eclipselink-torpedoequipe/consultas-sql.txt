@@ -1,0 +1,25 @@
+-- Total de mensagens por status envio + status tarifacao 
+SELECT a.cd_agenda, 
+       a.qt_total_msgs, 
+       Count(p.cd_status_processo), 
+       s.cd_status_processo, 
+       s.ds_status_processo  AS STATUS_ENVIO, 
+       Count(p.in_status_tarifacao), 
+       sp.cd_status_processo, 
+       sp.ds_status_processo AS STATUS_TARIFACAO 
+FROM   semw_agenda a 
+       INNER JOIN semw_ctl_processamento_msg p 
+               ON p.cd_agenda = a.cd_agenda 
+       INNER JOIN semw_status_processo s 
+               ON s.cd_status_processo = p.cd_status_processo 
+       LEFT OUTER JOIN semw_status_processo sp 
+                    ON sp.cd_status_processo = p.in_status_tarifacao 
+WHERE  a.cd_empresa = 21 
+GROUP  BY a.cd_agenda, 
+          a.qt_total_msgs, 
+          s.cd_status_processo, 
+          s.ds_status_processo, 
+          sp.cd_status_processo, 
+          sp.ds_status_processo 
+ORDER  BY a.cd_agenda DESC, 
+          s.cd_status_processo * 1 DESC;

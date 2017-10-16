@@ -1,0 +1,22 @@
+.fonte-principal {
+	color: red;
+	font-size: 24px;
+	margin-left: 25%;
+	padding-top: 2%;
+	text-decoration: underline;
+}
+
+.fonte-secundaria {
+	color: grey;
+	font-size: 20px;
+	margin: 2% 0 0 12.5%;
+	border: 1px solid black;
+	padding: 5px 0 0 15px;
+	width: 50%;
+}
+
+.fonte-voltar {
+	font-size: 15px;
+	font-weight: bold;
+	margin-left: 3%;
+}

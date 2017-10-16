@@ -1,0 +1,5 @@
+c:   <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+fn:  <%@taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
+fmt: <%@taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
+xml: <%@taglib prefix="x" uri="http://java.sun.com/jsp/jstl/xml" %> 
+

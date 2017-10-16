@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+	<persistence-unit name="spring.sgvas.repository.entidades">
+		<class>spring.sgvas.repository.entidades.Assinante</class>
+		<class>spring.sgvas.repository.entidades.Assinatura</class>
+		<class>spring.sgvas.repository.entidades.AssinaturaPK</class>
+		<class>spring.sgvas.repository.entidades.CicloAssinatura</class>
+		<class>spring.sgvas.repository.entidades.CicloAssinaturaPK</class>
+		<class>spring.sgvas.repository.entidades.ComposicaoPagamento</class>
+		<class>spring.sgvas.repository.entidades.ComposicaoPagamentoPK</class>
+		<class>spring.sgvas.repository.entidades.Configuracao</class>
+		<class>spring.sgvas.repository.entidades.ControleNotificacao</class>
+		<class>spring.sgvas.repository.entidades.ControleNotificacaoPK</class>
+		<class>spring.sgvas.repository.entidades.DetalheProduto</class>
+		<class>spring.sgvas.repository.entidades.DetalheProdutoPK</class>
+		<class>spring.sgvas.repository.entidades.Elegibilidade</class>
+		<class>spring.sgvas.repository.entidades.ElegibilidadePK</class>
+		<class>spring.sgvas.repository.entidades.Integracao</class>
+		<class>spring.sgvas.repository.entidades.IntegracaoPK</class>
+		<class>spring.sgvas.repository.entidades.Job</class>
+		<class>spring.sgvas.repository.entidades.MotivoAtualizacao</class>
+		<class>spring.sgvas.repository.entidades.MotivoStatus</class>
+		<class>spring.sgvas.repository.entidades.Pagamento</class>
+		<class>spring.sgvas.repository.entidades.PagamentoPK</class>
+		<class>spring.sgvas.repository.entidades.ParamJob</class>
+		<class>spring.sgvas.repository.entidades.ParamJobPK</class>
+		<class>spring.sgvas.repository.entidades.ParametroProduto</class>
+		<class>spring.sgvas.repository.entidades.Produto</class>
+		<class>spring.sgvas.repository.entidades.RecorrenciaPagamento</class>
+		<class>spring.sgvas.repository.entidades.RegraNotificacao</class>
+		<class>spring.sgvas.repository.entidades.RegraNotificacaoPK</class>
+		<class>spring.sgvas.repository.entidades.Servico</class>
+		<class>spring.sgvas.repository.entidades.ServicoSistemaProduto</class>
+		<class>spring.sgvas.repository.entidades.ServicoSistemaProdutoPK</class>
+		<class>spring.sgvas.repository.entidades.Sistema</class>
+		<class>spring.sgvas.repository.entidades.SistemaProduto</class>
+		<class>spring.sgvas.repository.entidades.SistemaProdutoPK</class>
+		<class>spring.sgvas.repository.entidades.SqlOut</class>
+		<class>spring.sgvas.repository.entidades.SqlOutPK</class>
+		<class>spring.sgvas.repository.entidades.TipoPagamento</class>
+		<class>spring.sgvas.repository.entidades.Transacao</class>
+	</persistence-unit>
+</persistence>

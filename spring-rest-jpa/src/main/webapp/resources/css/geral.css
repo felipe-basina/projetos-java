@@ -1,0 +1,38 @@
+.bordaa {
+	border: 3px solid green;
+	height: 20%;
+	width: 700px;
+	overflow-y: auto;
+	background-color: green;
+}
+
+.td {
+	border: 2px solid red;
+	padding: 6px;
+	text-align: center;
+	color: white;
+	width: 300px;
+}
+
+.msg-alerta, .error {
+	color: red;
+	font-weight: bold;
+}
+
+label.error {
+	float: right;
+	margin: 4px 0 0 10px;
+}
+
+input.error {
+	border: 2px solid red;
+}
+
+.ui-dialog-titlebar-close {
+  visibility: hidden;
+}
+
+.ui-widget-header {
+	background: #006dcc !important;
+	border: 0px !important;
+}

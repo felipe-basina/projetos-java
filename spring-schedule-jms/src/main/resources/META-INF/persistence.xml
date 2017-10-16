@@ -1,0 +1,48 @@
+<persistence xmlns="http://java.sun.com/xml/ns/persistence"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_1_0.xsd"
+	version="1.0">
+	<persistence-unit name="schedule-jms"
+		transaction-type="RESOURCE_LOCAL">
+
+		<provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+
+		<class>br.com.spring.schedule.jms.domain.Action</class>
+		<class>br.com.spring.schedule.jms.domain.ActionProfile</class>
+		<class>br.com.spring.schedule.jms.domain.ActionProfilePK</class>
+		<class>br.com.spring.schedule.jms.domain.Appointment</class>
+		<class>br.com.spring.schedule.jms.domain.Company</class>
+		<class>br.com.spring.schedule.jms.domain.CompanyGroup</class>
+		<class>br.com.spring.schedule.jms.domain.Config</class>
+		<class>br.com.spring.schedule.jms.domain.MessageModel</class>
+		<class>br.com.spring.schedule.jms.domain.Processing</class>
+		<class>br.com.spring.schedule.jms.domain.Profile</class>
+		<class>br.com.spring.schedule.jms.domain.Receipt</class>
+		<class>br.com.spring.schedule.jms.domain.SPSMessage</class>
+		<class>br.com.spring.schedule.jms.domain.Status</class>
+		<class>br.com.spring.schedule.jms.domain.User</class>
+		<class>br.com.spring.schedule.jms.domain.UserGroup</class>
+		<class>br.com.spring.schedule.jms.domain.UserGroupPK</class>
+
+		<properties>
+			<property name="eclipselink.target-server" value="WebLogic_10" />
+			<property name="eclipselink.weaving" value="false" />
+			<property name="eclipselink.target-database" value="Oracle" />
+			<!-- Niveis de log OFF - SEVERE - WARNING - INFO - CONFIG - FINE - FINER 
+				- FINEST - ALL -->
+			<property name="eclipselink.logging.level.sql" value="fine" />
+			<property name="eclipselink.logging.parameters" value="true" />
+			<!-- 
+				Deixar com valor 'true' ao realizar operações como update/insert/delete 
+				NÃO será executado um SELECT antes
+				Caso o valor seja 'false' SERÁ executado um SELECT antes das operações
+				update/insert/delete
+				
+				Referência: 
+				http://stackoverflow.com/questions/18229839/how-can-i-prevent-eclipselink-jpa-doing-a-select-before-every-insert
+			-->
+			<property name="eclipselink.cache.shared.default" value="true" />
+		</properties>
+
+	</persistence-unit>
+</persistence>
